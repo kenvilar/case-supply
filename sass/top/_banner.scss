@@ -9,3 +9,13 @@
 		background-size: cover;
 	}
 }
+#normal-banner {
+	background-color: $color-background-green;
+	padding-top: 65px;
+	padding-bottom: 65px;
+	h1 {
+		color: $color-text-white;
+		text-transform: uppercase;
+		@include roboto900;
+	}
+}

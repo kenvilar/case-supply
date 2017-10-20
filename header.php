@@ -27,3 +27,14 @@
 	
 	<?php require 'layouts/navigation.php'; ?>
 	
+	<?php if ( ! is_home() ) : ?>
+	<section id="normal-banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-2 col-md-10">
+					<h1><?php echo get_the_title(); ?></h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<?php endif; ?>
