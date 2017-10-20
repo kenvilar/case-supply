@@ -14,3 +14,22 @@
 @mixin clearfix-after() {
 	clear: both;
 }
+//Fonts
+@mixin roboto300() {
+	font-family: 'Roboto Light', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+@mixin roboto400() {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+@mixin roboto900() {
+	font-family: 'Roboto Black', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+}
