@@ -4,26 +4,24 @@
  *
  * Contains the closing of the #content div and all content after.
  *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ * @link    https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package casesupply
  */
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'casesupply' ) ); ?>"><?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'casesupply' ), 'WordPress' );
-			?></a>
-			<span class="sep"> | </span>
-			<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'casesupply' ), 'casesupply', '<a href="#">Ken</a>' );
-			?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="text-center col-md-12">
+					<a href="<?php echo esc_url( __( '/', 'casesupply' ) ); ?>">
+						<?php printf( esc_html__( '&copy; %s, INC. ALL RIGHTS RESERVED', 'casesupply' ), 'CASE SUPPLY' ); ?>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 </div><!-- #main-container -->
 

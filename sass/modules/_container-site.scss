@@ -16,3 +16,17 @@
 		@include roboto900;
 	}
 }
+#get-in-touch {
+	@include paddingtopandbottom;
+	background-color: $color-background-gray;
+	.col-md-4 {
+		padding-top: 90px;
+		padding-bottom: 90px;
+		img {
+			margin-bottom: 20px;
+		}
+		p {
+			color: $color-text-white;
+		}
+	}
+}

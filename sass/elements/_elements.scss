@@ -9,3 +9,9 @@ body {
 	-ms-overflow-style: scrollbar;
 	overflow-x: hidden;
 }
+a {
+	&:hover {
+		text-decoration: none;
+		color: $color-text-white;
+	}
+}

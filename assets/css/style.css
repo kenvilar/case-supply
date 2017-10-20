@@ -411,22 +411,22 @@ template {
 /*Variables*/
 /*Mixins*/
 /*Typography*/
-h1, .h1 {
+h1, .header1 {
   font-size: 36px; }
 
-h2, .h2 {
+h2, .header2 {
   font-size: 30px; }
 
-h3, .h3 {
+h3, .header3 {
   font-size: 24px; }
 
-h4, .h4 {
+h4, .header4 {
   font-size: 18px; }
 
-h5, .h5 {
+h5, .header5 {
   font-size: 16px; }
 
-h6, .h6 {
+h6, .header6 {
   font-size: 12px; }
 
 /*Elements*/
@@ -443,6 +443,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -ms-overflow-style: scrollbar;
   overflow-x: hidden; }
+
+a:hover {
+  text-decoration: none;
+  color: #fff; }
 
 /*Forms*/
 /*Navigation*/
@@ -472,9 +476,8 @@ body {
   padding-bottom: 175px; }
 #banner .jumbotron {
   background-repeat: no-repeat;
-  background-position: 100% 600%;
-  background-size: cover;
-  background-attachment: fixed; }
+  background-position: center center;
+  background-size: cover; }
 
 /*Modules*/
 .screen-reader-text {
@@ -523,5 +526,44 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: normal; }
+
+#get-in-touch {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F8F8F8; }
+  #get-in-touch .col-md-4 {
+    padding-top: 90px;
+    padding-bottom: 90px; }
+    #get-in-touch .col-md-4 img {
+      margin-bottom: 20px; }
+    #get-in-touch .col-md-4 p {
+      color: #fff; }
+
+.header {
+  font-family: 'Roboto Black', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  line-height: inherit; }
+
+.background-green {
+  background-color: rgba(55, 157, 105, 0.85); }
+
+.background-dark-gray {
+  background-color: #9B9B9B; }
+
+.background-blue {
+  background-color: #4A90E2; }
+
+.color-white {
+  color: #fff; }
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #000; }
+  footer a {
+    color: #fff;
+    font-size: 10px; }
 
 /*# sourceMappingURL=style.css.map */
