@@ -1,11 +1,18 @@
 #home-services {
-
+	@include paddingtopandbottom;
 	.single-service {
 		border-right: 2px solid #E8E8E8;
-
 		p {
 			padding-left: 50px;
 			padding-right: 50px;
 		}
+	}
+}
+#our-story {
+	background-color: $color-background-dark-gray;
+	color: $color-text-white;
+	@include paddingtopandbottom;
+	h1 {
+		@include roboto900;
 	}
 }

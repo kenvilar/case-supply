@@ -472,8 +472,9 @@ body {
   padding-bottom: 175px; }
 #banner .jumbotron {
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; }
+  background-position: 100% 600%;
+  background-size: cover;
+  background-attachment: fixed; }
 
 /*Modules*/
 .screen-reader-text {
@@ -503,10 +504,24 @@ body {
 #content[tabindex="-1"]:focus {
   outline: 0; }
 
-#home-services .single-service {
-  border-right: 2px solid #E8E8E8; }
-  #home-services .single-service p {
-    padding-left: 50px;
-    padding-right: 50px; }
+#home-services {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  #home-services .single-service {
+    border-right: 2px solid #E8E8E8; }
+    #home-services .single-service p {
+      padding-left: 50px;
+      padding-right: 50px; }
+
+#our-story {
+  background-color: #9B9B9B;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  #our-story h1 {
+    font-family: 'Roboto Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal; }
 
 /*# sourceMappingURL=style.css.map */

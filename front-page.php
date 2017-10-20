@@ -35,4 +35,35 @@ get_header(); ?>
 	</div>
 </section>
 
+<section id="our-story">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8 col-sm-12">
+				<h1 class="text-center">OUR STORY</h1>
+				<p>
+					For over 50 years, the Case Supply family of employees has dedicated itself to servicing the needs
+					of New York State’s kitchen and bath customers.
+					<br><br>
+					Case Supply, Inc. is a third generation, family-owned Kitchen & Bath design center that started in
+					the city of Syracuse, NY in 1958 by Joseph A. Cicci, president of the New York State Home Builders
+					Association (first elected in 1963) and is now run by his grandson, Joseph S. Cicci, formerly of
+					Rome, New York.
+					<br><br>
+					Case Supply is bringing the home improvement industry’s latest styles, trends, fixtures and
+					cabinetry to all of Central New York with respected consumer brands to meet every budget. We offer
+					in-home design and measurement services, job-site delivery, project financing and the creative
+					expertise of our local specialists.
+					​<br><br>
+					Kitchen and bath construction projects are emotional experiences, and no one is better prepared to
+					guide you from vision to completion than Case Supply. Our award-winning design team facilitates all
+					aspects of sale and delivery with the nation’s most-coveted products and the industry’s
+					most-respected service team.
+					​<br><br>
+					The Case Supply team welcomes you as your journey in home improvement begins!
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
 <?php get_footer(); ?>
