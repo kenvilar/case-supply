@@ -1,3 +1,12 @@
+#template-contaier {
+	@include paddingtopandbottom;
+	.col-md-6 {
+		margin-bottom: 20px;
+		h4 {
+			margin-top: 0;
+		}
+	}
+}
 #home-services {
 	@include paddingtopandbottom;
 	.single-service {
@@ -16,12 +25,4 @@
 		@include roboto900;
 	}
 }
-#services {
-	@include paddingtopandbottom;
-	.col-md-6 {
-		margin-bottom: 20px;
-		h4 {
-			margin-top: 0;
-		}
-	}
-}
+.services { }

@@ -519,6 +519,14 @@ a:hover {
 #content[tabindex="-1"]:focus {
   outline: 0; }
 
+#template-contaier {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  #template-contaier .col-md-6 {
+    margin-bottom: 20px; }
+    #template-contaier .col-md-6 h4 {
+      margin-top: 0; }
+
 #home-services {
   padding-top: 40px;
   padding-bottom: 40px; }
@@ -538,14 +546,6 @@ a:hover {
     font-style: normal;
     font-weight: 900;
     line-height: normal; }
-
-#services {
-  padding-top: 40px;
-  padding-bottom: 40px; }
-  #services .col-md-6 {
-    margin-bottom: 20px; }
-    #services .col-md-6 h4 {
-      margin-top: 0; }
 
 .header {
   font-family: 'Roboto Black', sans-serif;
