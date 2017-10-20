@@ -31,7 +31,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 /*Forms*/
 @import "forms/forms";
 /*Navigation*/
-@import "navigation/menus";
+@import "top/menus";
+@import "top/banner";
 /*Modules*/
 @import "modules/accessibility";
 @import "modules/container-site";
