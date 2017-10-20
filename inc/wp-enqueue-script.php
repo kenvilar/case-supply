@@ -35,6 +35,11 @@ function casesupply_scripts() {
 		array( 'jquery' ),
 		'2017', true );
 	
+	wp_enqueue_script( 'casesupply-matchheight-js',
+		get_template_directory_uri() . '/assets/lib/jquery.matchHeight-min.js',
+		array( 'jquery' ),
+		'2017', true );
+	
 	wp_enqueue_script( 'casesupply-main-js',
 		get_template_directory_uri() . '/assets/js/main.js',
 		array( 'jquery' ),
