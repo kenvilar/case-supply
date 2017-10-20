@@ -23,7 +23,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,500,900");
 html {
   line-height: 1.15;
   /* 1 */
@@ -479,6 +479,18 @@ a:hover {
   background-position: center center;
   background-size: cover; }
 
+#normal-banner {
+  background-color: rgba(55, 157, 105, 0.85);
+  padding-top: 65px;
+  padding-bottom: 65px; }
+  #normal-banner h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal; }
+
 /*Modules*/
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -527,17 +539,13 @@ a:hover {
     font-weight: 900;
     line-height: normal; }
 
-#home-get-in-touch {
+#services {
   padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #F8F8F8; }
-  #home-get-in-touch .col-md-4 {
-    padding-top: 90px;
-    padding-bottom: 90px; }
-    #home-get-in-touch .col-md-4 img {
-      margin-bottom: 20px; }
-    #home-get-in-touch .col-md-4 p {
-      color: #fff; }
+  padding-bottom: 40px; }
+  #services .col-md-6 {
+    margin-bottom: 20px; }
+    #services .col-md-6 h4 {
+      margin-top: 0; }
 
 .header {
   font-family: 'Roboto Black', sans-serif;
@@ -557,6 +565,18 @@ a:hover {
 
 .color-white {
   color: #fff; }
+
+#get-in-touch {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F8F8F8; }
+  #get-in-touch .col-md-4 {
+    padding-top: 90px;
+    padding-bottom: 90px; }
+    #get-in-touch .col-md-4 img {
+      margin-bottom: 20px; }
+    #get-in-touch .col-md-4 p {
+      color: #fff; }
 
 footer {
   padding-top: 20px;
