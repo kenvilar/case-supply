@@ -35,7 +35,7 @@ get_header(); ?>
 	</div>
 </section>
 
-<section id="our-story">
+<section id="home-our-story">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 col-sm-12">
@@ -66,7 +66,7 @@ get_header(); ?>
 	</div>
 </section>
 
-<section id="get-in-touch" class="text-center">
+<section id="home-get-in-touch" class="text-center">
 	<div class="container">
 		<div class="row">
 			<p class="header1 header">GET IN TOUCH</p>

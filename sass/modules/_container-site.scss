@@ -8,7 +8,7 @@
 		}
 	}
 }
-#our-story {
+#home-our-story {
 	background-color: $color-background-dark-gray;
 	color: $color-text-white;
 	@include paddingtopandbottom;
@@ -16,7 +16,7 @@
 		@include roboto900;
 	}
 }
-#get-in-touch {
+#home-get-in-touch {
 	@include paddingtopandbottom;
 	background-color: $color-background-gray;
 	.col-md-4 {

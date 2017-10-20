@@ -516,27 +516,27 @@ a:hover {
       padding-left: 50px;
       padding-right: 50px; }
 
-#our-story {
+#home-our-story {
   background-color: #9B9B9B;
   color: #fff;
   padding-top: 40px;
   padding-bottom: 40px; }
-  #our-story h1 {
+  #home-our-story h1 {
     font-family: 'Roboto Black', sans-serif;
     font-style: normal;
     font-weight: 900;
     line-height: normal; }
 
-#get-in-touch {
+#home-get-in-touch {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #F8F8F8; }
-  #get-in-touch .col-md-4 {
+  #home-get-in-touch .col-md-4 {
     padding-top: 90px;
     padding-bottom: 90px; }
-    #get-in-touch .col-md-4 img {
+    #home-get-in-touch .col-md-4 img {
       margin-bottom: 20px; }
-    #get-in-touch .col-md-4 p {
+    #home-get-in-touch .col-md-4 p {
       color: #fff; }
 
 .header {
