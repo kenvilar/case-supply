@@ -66,40 +66,4 @@ get_header(); ?>
 	</div>
 </section>
 
-<section id="home-get-in-touch" class="text-center">
-	<div class="container">
-		<div class="row">
-			<p class="header1 header">GET IN TOUCH</p>
-			<p class="header5">We'd love to hear from you!</p>
-		</div>
-	</div>
-	<div class="container color-white">
-		<div class="row">
-			<div class="col-md-offset-1 col-md-10">
-				<a href="">
-					<div class="col-md-4 background-dark-gray">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/email.png'; ?>"
-						     alt="icon">
-						<p>information@casesupply.com</p>
-					</div>
-				</a>
-				<a href="">
-					<div class="col-md-4 background-green">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/call.png'; ?>"
-						     alt="icon">
-						<p>315.425.1818</p>
-					</div>
-				</a>
-				<a href="">
-					<div class="col-md-4 background-blue">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/facebook.png'; ?>"
-						     alt="icon">
-						<p>Find us on Facebook</p>
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
-</section>
-
 <?php get_footer(); ?>
