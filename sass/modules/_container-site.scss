@@ -47,3 +47,17 @@
 		}
 	}
 }
+.our-team {
+	.single-team {
+		text-align: center;
+		p {
+			@include roboto900;
+			font-size: $font-size-h4;
+			padding-top: 10px;
+			span {
+				@include roboto300;
+				font-size: $font-size-medium;
+			}
+		}
+	}
+}

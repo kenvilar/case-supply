@@ -567,6 +567,22 @@ a:hover {
       font-weight: 500;
       line-height: normal; }
 
+.our-team .single-team {
+  text-align: center; }
+  .our-team .single-team p {
+    font-family: 'Roboto Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 18px;
+    padding-top: 10px; }
+    .our-team .single-team p span {
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      font-size: 14px; }
+
 .header {
   font-family: 'Roboto Black', sans-serif;
   font-style: normal;
