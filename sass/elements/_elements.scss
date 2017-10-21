@@ -15,3 +15,21 @@ a {
 		color: $color-text-white;
 	}
 }
+.uppercase {
+	text-transform: uppercase;
+}
+.nopadding {
+	padding: 0;
+}
+.nopaddingtop {
+	padding-top: 0;
+}
+.nopaddingbottom {
+	padding-bottom: 0;
+}
+.nopaddingleft {
+	padding-left: 0;
+}
+.nopaddingright {
+	padding-right: 0;
+}

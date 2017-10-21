@@ -448,6 +448,24 @@ a:hover {
   text-decoration: none;
   color: #fff; }
 
+.uppercase {
+  text-transform: uppercase; }
+
+.nopadding {
+  padding: 0; }
+
+.nopaddingtop {
+  padding-top: 0; }
+
+.nopaddingbottom {
+  padding-bottom: 0; }
+
+.nopaddingleft {
+  padding-left: 0; }
+
+.nopaddingright {
+  padding-right: 0; }
+
 /*Forms*/
 /*Navigation*/
 .navbar-default {
@@ -480,7 +498,7 @@ a:hover {
   background-size: cover; }
 
 #normal-banner {
-  background-color: #379D69;
+  background-color: rgba(55, 157, 105, 0.85);
   padding-top: 30px;
   padding-bottom: 30px; }
   #normal-banner h1 {
@@ -594,7 +612,7 @@ a:hover {
     margin-bottom: 10px; }
     .faq .single-faq .question:before {
       content: 'Q: ';
-      color: #2E8E56; }
+      color: #379D69; }
   .faq .single-faq .answer:before {
     content: 'A: ';
     font-family: 'Roboto Black', sans-serif;
@@ -604,6 +622,35 @@ a:hover {
     font-size: 18px;
     color: #000000; }
 
+.contact .title {
+  font-family: 'Roboto Black', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  color: #379D69;
+  font-size: 24px;
+  margin-bottom: 25px; }
+.contact .locations .location h4 {
+  font-family: 'Roboto Black', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal; }
+.contact .hours-of-operation .days {
+  font-family: 'Roboto Black', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  line-height: 20px; }
+.contact .hours-of-operation .time {
+  font-family: 'Roboto Light', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  line-height: 20px; }
+.contact .map {
+  padding-top: 135px;
+  padding-bottom: 135px; }
+
 .header {
   font-family: 'Roboto Black', sans-serif;
   font-style: normal;
@@ -612,7 +659,7 @@ a:hover {
   line-height: inherit; }
 
 .background-green {
-  background-color: #379D69; }
+  background-color: rgba(55, 157, 105, 0.85); }
 
 .background-dark-gray {
   background-color: #9B9B9B; }
