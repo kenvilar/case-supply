@@ -61,3 +61,25 @@
 		}
 	}
 }
+.faq {
+	.single-faq {
+		margin-bottom: 20px;
+		.question {
+			@include roboto900;
+			font-size: $font-size-h4;
+			margin-bottom: 10px;
+			&:before {
+				content: 'Q: ';
+				color: $color-text-green;
+			}
+		}
+		.answer {
+			&:before {
+				content: 'A: ';
+				@include roboto900;
+				font-size: $font-size-h4;
+				color: $color-text-black;
+			}
+		}
+	}
+}
