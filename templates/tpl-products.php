@@ -4,7 +4,7 @@
  */
 get_header(); ?>
 
-<section id="template-contaier" class="products">
+<section id="template-container" class="products">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8">

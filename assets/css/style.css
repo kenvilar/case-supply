@@ -519,12 +519,12 @@ a:hover {
 #content[tabindex="-1"]:focus {
   outline: 0; }
 
-#template-contaier {
+#template-container {
   padding-top: 40px;
   padding-bottom: 40px; }
-  #template-contaier .col-md-6 {
+  #template-container .col-md-6 {
     margin-bottom: 20px; }
-    #template-contaier .col-md-6 h4 {
+    #template-container .col-md-6 h4 {
       margin-top: 0; }
 
 #home-services {
