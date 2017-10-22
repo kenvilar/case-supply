@@ -16,4 +16,5 @@ My ultra-minimal CSS might make me look like theme tartare but that means less s
 Getting Started
 -------------
 * Run SASS using this command `sass sass/style.scss assets/css/style.css` or 
-* Run and watch SASS using this command `sass --watch sass/style.scss:assets/css/style.css`
+* Run and watch SASS using this command `sass --watch sass/style.scss:assets/css/style.css` or
+* Run, watch, and minify the css files using this command `sass --watch sass/style.scss:assets/css/style.css --watch assets/css/style.css:assets/css/style.min.css --style compressed --scss`
