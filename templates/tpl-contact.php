@@ -121,7 +121,4 @@ get_header(); ?>
 
 <div id="map"></div>
 
-<script src="<?php echo get_template_directory_uri() . '/assets/js/map.js'; ?>"></script>
-<script async defer
-        src="//maps.googleapis.com/maps/api/js?key=AIzaSyCLI2mmf0Q6SK6-_v4BT6xtizZgz06QWi0&callback=initMap"></script>
 <?php get_footer(); ?>
