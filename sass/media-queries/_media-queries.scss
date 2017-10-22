@@ -1,5 +1,6 @@
 @media only screen and (max-width: 767px) {
 	.navbar-default {
+		z-index: 1;
 		.navbar-header {
 			.navbar-toggle {
 				border-color: transparent;
@@ -30,6 +31,17 @@
 			}
 		}
 	}
+	#normal-banner {
+		background-color: transparent;
+		padding-bottom: 0;
+		h1 {
+			color: $color-text-green;
+			font-size: $font-size-h3;
+			text-align: center;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
 	#home-services {
 		padding-top: 0;
 		padding-bottom: 0;
@@ -41,8 +53,16 @@
 			}
 		}
 	}
+	.services {
+		.service-icon {
+			display: none;
+		}
+	}
 	.get-in-touch {
 		padding-bottom: 0 !important;
+		.header {
+			font-size: 24px;
+		}
 		.container-fluid {
 			padding-right: 0;
 			padding-left: 0;

@@ -25,7 +25,11 @@
 		@include roboto900;
 	}
 }
-.services { }
+.services {
+	.service-title {
+		@include roboto500;
+	}
+}
 .products {
 	.products-box {
 		padding-top: 30px;

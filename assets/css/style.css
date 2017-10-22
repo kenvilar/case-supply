@@ -567,6 +567,12 @@ a:hover {
     font-weight: 900;
     line-height: normal; }
 
+.services .service-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal; }
+
 .products .products-box {
   padding-top: 30px; }
   .products .products-box .single-product {
@@ -694,25 +700,37 @@ footer {
 
 /*Media Queries*/
 @media only screen and (max-width: 767px) {
-  .navbar-default .navbar-header .navbar-toggle {
-    border-color: transparent;
-    margin-top: 20px; }
-    .navbar-default .navbar-header .navbar-toggle:hover {
-      background-color: transparent; }
-    .navbar-default .navbar-header .navbar-toggle .icon-bar {
+  .navbar-default {
+    z-index: 1; }
+    .navbar-default .navbar-header .navbar-toggle {
+      border-color: transparent;
+      margin-top: 20px; }
+      .navbar-default .navbar-header .navbar-toggle:hover {
+        background-color: transparent; }
+      .navbar-default .navbar-header .navbar-toggle .icon-bar {
+        background-color: #379D69;
+        height: 4px; }
+    .navbar-default .navbar-collapse {
+      border-color: transparent;
       background-color: #379D69;
-      height: 4px; }
-  .navbar-default .navbar-collapse {
-    border-color: transparent;
-    background-color: #379D69;
-    margin-top: 10px; }
-    .navbar-default .navbar-collapse .navbar-nav {
-      padding-bottom: 40px;
-      padding-right: 10px; }
-      .navbar-default .navbar-collapse .navbar-nav li a {
-        color: #fff;
-        text-align: right;
-        font-size: 30px; }
+      margin-top: 10px; }
+      .navbar-default .navbar-collapse .navbar-nav {
+        padding-bottom: 40px;
+        padding-right: 10px; }
+        .navbar-default .navbar-collapse .navbar-nav li a {
+          color: #fff;
+          text-align: right;
+          font-size: 30px; }
+
+  #normal-banner {
+    background-color: transparent;
+    padding-bottom: 0; }
+    #normal-banner h1 {
+      color: #379D69;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 0; }
 
   #home-services {
     padding-top: 0;
@@ -723,8 +741,13 @@ footer {
       #home-services .single-service:nth-child(2) {
         background-color: #F8F8F8; }
 
+  .services .service-icon {
+    display: none; }
+
   .get-in-touch {
     padding-bottom: 0 !important; }
+    .get-in-touch .header {
+      font-size: 24px; }
     .get-in-touch .container-fluid {
       padding-right: 0;
       padding-left: 0; }
