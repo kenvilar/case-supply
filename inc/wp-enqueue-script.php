@@ -14,6 +14,7 @@ function casesupply_styles() {
 		'',
 		'2017' );
 }
+
 add_action( 'wp_enqueue_scripts', 'casesupply_styles' );
 
 /**
@@ -45,8 +46,23 @@ function casesupply_scripts() {
 		array( 'jquery' ),
 		'2017', true );
 	
+	// Only display on Contact page
+	if ( is_page( 'contact' ) ) {
+		wp_enqueue_script( 'casesupply-custom-map-js',
+			get_template_directory_uri() . '/assets/js/map.js',
+			array(),
+			'2017', true );
+		
+		wp_enqueue_script( 'casesupply-api-map-js',
+			'//maps.googleapis.com/maps/api/js?key=AIzaSyCLI2mmf0Q6SK6-_v4BT6xtizZgz06QWi0&callback=initMap',
+			array( 'casesupply-custom-map-js' ),
+			'2017', true );
+	}
+	// End only display on Contact page
+	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
+
 add_action( 'wp_enqueue_scripts', 'casesupply_scripts' );
