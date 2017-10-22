@@ -66,16 +66,16 @@ get_header(); ?>
 						Case Supply proudly offers a variety of granite, solid-surface, quartz, and laminate countertop
 						products.
 						<br><br>
-						<div class="col-md-3"><img
+						<div class="col-md-3 col-sm-6 col-xs-6 equal-height"><img
 									src="<?php echo get_template_directory_uri() . '/assets/images/corian-design.png'; ?>"
 									alt="image"></div>
-						<div class="col-md-3"><img
+						<div class="col-md-3 col-sm-6 col-xs-6 equal-height"><img
 									src="<?php echo get_template_directory_uri() . '/assets/images/hartson-kennedy.png'; ?>"
 									alt="image"></div>
-						<div class="col-md-3"><img
+						<div class="col-md-3 col-sm-6 col-xs-6 equal-height"><img
 									src="<?php echo get_template_directory_uri() . '/assets/images/cambria.png'; ?>"
 									alt="image"></div>
-						<div class="col-md-3"><img
+						<div class="col-md-3 col-sm-6 col-xs-6 equal-height"><img
 									src="<?php echo get_template_directory_uri() . '/assets/images/busch.png'; ?>"
 									alt="image"></div>
 					</div>

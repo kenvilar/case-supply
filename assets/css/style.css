@@ -466,6 +466,9 @@ a:hover {
 .nopaddingright {
   padding-right: 0; }
 
+.equal-height {
+  margin-bottom: 5px; }
+
 /*Forms*/
 /*Navigation*/
 .navbar-default {
@@ -819,8 +822,8 @@ footer {
             padding-right: 10px; }
       .products .products-container .products-box .single-product-close {
         background-image: initial;
-        padding-top: 110px;
-        padding-bottom: 110px; }
+        padding-top: 145px;
+        padding-bottom: 145px; }
         .products .products-container .products-box .single-product-close .product-title {
           background-color: #EBA93E; }
           .products .products-container .products-box .single-product-close .product-title:after {
