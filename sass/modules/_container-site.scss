@@ -49,7 +49,7 @@
 			&:hover {
 				cursor: pointer;
 			}
-			h4 {
+			.product-title {
 				top: 0;
 				position: absolute;
 				padding-left: 25px;
@@ -58,7 +58,7 @@
 			}
 		}
 		.single-product-close {
-			background-image: none !important;
+			background-image: none;
 			background-color: $color-background-orange;
 			-webkit-transition: all 900ms linear;
 			-moz-transition: all 900ms linear;

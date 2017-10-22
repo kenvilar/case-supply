@@ -590,7 +590,7 @@ a:hover {
     transition: all 900ms linear; }
     .products .products-box .single-product:hover {
       cursor: pointer; }
-    .products .products-box .single-product h4 {
+    .products .products-box .single-product .product-title {
       top: 0;
       position: absolute;
       padding-left: 25px;
@@ -600,7 +600,7 @@ a:hover {
       font-weight: 500;
       line-height: normal; }
   .products .products-box .single-product-close {
-    background-image: none !important;
+    background-image: none;
     background-color: #EBA93E;
     -webkit-transition: all 900ms linear;
     -moz-transition: all 900ms linear;
@@ -797,6 +797,41 @@ footer {
     .products .products-container .products-box {
       padding-left: 0;
       padding-right: 0; }
+      .products .products-container .products-box .single-product {
+        padding-top: 17px;
+        padding-bottom: 17px; }
+        .products .products-container .products-box .single-product .product-title {
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+          background: #379D69;
+          width: 100%;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          margin-top: 0; }
+          .products .products-container .products-box .single-product .product-title:after {
+            font-family: 'FontAwesome', sans-serif;
+            font-style: normal;
+            line-height: normal;
+            content: '\f0d7';
+            float: right;
+            padding-right: 10px; }
+      .products .products-container .products-box .single-product-close {
+        background-image: initial;
+        padding-top: 110px;
+        padding-bottom: 110px; }
+        .products .products-container .products-box .single-product-close .product-title {
+          background-color: #EBA93E; }
+          .products .products-container .products-box .single-product-close .product-title:after {
+            font-family: 'FontAwesome', sans-serif;
+            font-style: normal;
+            line-height: normal;
+            content: '\f0d8';
+            float: right;
+            padding-right: 10px; }
+      .products .products-container .products-box .single-product-content {
+        padding: 10px 10px 10px; }
 
   .our-team .team-container {
     padding-left: 0;

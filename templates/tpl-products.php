@@ -23,7 +23,7 @@ get_header(); ?>
 					<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 					     title="Click For More Details"
 					     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/clareanne-residential-1500x998.png'; ?>);background-position-y: center;">
-						<h4>KITCHEN</h4>
+						<h4 class="product-title">KITCHEN</h4>
 					</div>
 					<div class="single-product-content">
 						For most people, renovating a kitchen is a once-in-a-lifetime experience. Case Supply recognizes
@@ -42,12 +42,16 @@ get_header(); ?>
 					<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 					     title="Click For More Details"
 					     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/Seagrove_Kirkstead_B_cambriastyle_001_14_1260x960.png'; ?>);background-position-y: 40%;">
-						<h4>BATH</h4>
+						<h4 class="product-title">BATH</h4>
 					</div>
 					<div class="single-product-content">
-						Today’s bathroom serves as an oasis from everyday stress. At Case Supply, we take luxury bathing to a new level. Relaxing whirlpools, steam showers, and innovative bodyspray systems have made bath remodeling more exciting than ever.
+						Today’s bathroom serves as an oasis from everyday stress. At Case Supply, we take luxury bathing
+						to a new level. Relaxing whirlpools, steam showers, and innovative bodyspray systems have made
+						bath remodeling more exciting than ever.
 						<br><br>
-						If you’re looking to make a small bathroom more functional, Case Supply can help you as well. Water closets and pedestal lavatories together in stylish ensembles can create a prestigious look on any budget.
+						If you’re looking to make a small bathroom more functional, Case Supply can help you as well.
+						Water closets and pedestal lavatories together in stylish ensembles can create a prestigious
+						look on any budget.
 						<br><br>
 						At Case Supply, bathrooms are our business!
 					</div>
@@ -56,22 +60,31 @@ get_header(); ?>
 					<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 					     title="Click For More Details"
 					     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/brittanicca_t_khachibrandonbarre_001_16_1260x960.png'; ?>);background-position-y: 85%;">
-						<h4>COUNTERTOPS</h4>
+						<h4 class="product-title">COUNTERTOPS</h4>
 					</div>
 					<div class="single-product-content">
-						Case Supply proudly offers a variety of granite, solid-surface, quartz, and laminate countertop products.
+						Case Supply proudly offers a variety of granite, solid-surface, quartz, and laminate countertop
+						products.
 						<br><br>
-						<div class="col-md-3"><img src="<?php echo get_template_directory_uri() . '/assets/images/corian-design.png'; ?>" alt="image"></div>
-						<div class="col-md-3"><img src="<?php echo get_template_directory_uri() . '/assets/images/hartson-kennedy.png'; ?>" alt="image"></div>
-						<div class="col-md-3"><img src="<?php echo get_template_directory_uri() . '/assets/images/cambria.png'; ?>" alt="image"></div>
-						<div class="col-md-3"><img src="<?php echo get_template_directory_uri() . '/assets/images/busch.png'; ?>" alt="image"></div>
+						<div class="col-md-3"><img
+									src="<?php echo get_template_directory_uri() . '/assets/images/corian-design.png'; ?>"
+									alt="image"></div>
+						<div class="col-md-3"><img
+									src="<?php echo get_template_directory_uri() . '/assets/images/hartson-kennedy.png'; ?>"
+									alt="image"></div>
+						<div class="col-md-3"><img
+									src="<?php echo get_template_directory_uri() . '/assets/images/cambria.png'; ?>"
+									alt="image"></div>
+						<div class="col-md-3"><img
+									src="<?php echo get_template_directory_uri() . '/assets/images/busch.png'; ?>"
+									alt="image"></div>
 					</div>
 				</div>
 				<div class="col-md-12">
 					<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 					     title="Click For More Details"
 					     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/stove.png'; ?>);background-position-y: 15%;">
-						<h4>APPLIANCES</h4>
+						<h4 class="product-title">APPLIANCES</h4>
 					</div>
 					<div class="single-product-content">
 						VISIT OUR UPDATED SHOWROOM <br>
