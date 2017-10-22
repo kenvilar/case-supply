@@ -72,6 +72,22 @@
 			padding-bottom: 30px;
 		}
 	}
+	.contact {
+		.locations {
+			.title {
+				text-align: center;
+			}
+			.location {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+		.hours-of-operation {
+			.title {
+				text-align: center;
+			}
+		}
+	}
 }
 @media only screen and (max-width: 320px) {
 	.navbar-default {
@@ -98,6 +114,35 @@
 			padding-right: 0;
 			.single-team img {
 				width: 100%;
+			}
+		}
+	}
+	.contact {
+		.locations {
+			.location {
+				padding-left: 0;
+				padding-right: 0;
+				.col-xs-1 {
+					padding-left: 0;
+					img {
+						float: left !important;
+					}
+				}
+				.address {
+					padding-left: 10px;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 318px) {
+	.contact {
+		.hours-of-operation {
+			.days {
+				font-size: $font-size-small;
+			}
+			.time {
+				font-size: $font-size-small;
 			}
 		}
 	}

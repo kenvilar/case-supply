@@ -775,7 +775,15 @@ footer {
       padding-left: 0; }
     .get-in-touch .single {
       padding-top: 30px;
-      padding-bottom: 30px; } }
+      padding-bottom: 30px; }
+
+  .contact .locations .title {
+    text-align: center; }
+  .contact .locations .location {
+    padding-left: 0;
+    padding-right: 0; }
+  .contact .hours-of-operation .title {
+    text-align: center; } }
 @media only screen and (max-width: 320px) {
   .navbar-default .navbar-header .navbar-brand {
     width: 250px;
@@ -792,6 +800,21 @@ footer {
     padding-left: 0;
     padding-right: 0; }
     .our-team .team-container .single-team img {
-      width: 100%; } }
+      width: 100%; }
+
+  .contact .locations .location {
+    padding-left: 0;
+    padding-right: 0; }
+    .contact .locations .location .col-xs-1 {
+      padding-left: 0; }
+      .contact .locations .location .col-xs-1 img {
+        float: left !important; }
+    .contact .locations .location .address {
+      padding-left: 10px; } }
+@media only screen and (max-width: 318px) {
+  .contact .hours-of-operation .days {
+    font-size: 10px; }
+  .contact .hours-of-operation .time {
+    font-size: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
