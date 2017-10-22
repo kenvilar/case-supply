@@ -92,4 +92,13 @@
 			}
 		}
 	}
+	.our-team {
+		.team-container {
+			padding-left: 0;
+			padding-right: 0;
+			.single-team img {
+				width: 100%;
+			}
+		}
+	}
 }

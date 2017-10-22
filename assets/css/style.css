@@ -786,6 +786,12 @@ footer {
     padding-right: 0; }
     .products .products-container .products-box {
       padding-left: 0;
-      padding-right: 0; } }
+      padding-right: 0; }
+
+  .our-team .team-container {
+    padding-left: 0;
+    padding-right: 0; }
+    .our-team .team-container .single-team img {
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
