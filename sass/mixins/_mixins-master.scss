@@ -33,6 +33,11 @@
 	font-weight: 900;
 	line-height: normal;
 }
+@mixin font-awesome() {
+	font-family: 'FontAwesome', sans-serif;
+	font-style: normal;
+	line-height: normal;
+}
 // Padding Top and Bottom
 @mixin paddingtopandbottom() {
 	padding-top: 40px;
