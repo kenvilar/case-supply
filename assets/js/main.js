@@ -16,6 +16,17 @@
 			$( '.navbar-toggle-open' ).show();
 		} );
 
+		// Products toggle
+		$( '.single-product-toggle' ).on( 'click', singleProductContentOpen );
+		function singleProductContentOpen() {
+			$( '.single-product-content' ).slideToggle();
+			$( this ).toggleClass( 'single-product-close' );
+		}
+		$( '.single-product-close' ).on( 'click', singleProductContentClose );
+		function singleProductContentClose() {
+			$( '.single-product-content' ).fadeOut();
+		}
+
 	} );
 
 })( jQuery );

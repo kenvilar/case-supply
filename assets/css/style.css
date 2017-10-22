@@ -582,7 +582,14 @@ a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-    margin-bottom: 10px; }
+    margin-top: 10px;
+    -webkit-transition: all 900ms linear;
+    -moz-transition: all 900ms linear;
+    -o-transition: all 900ms linear;
+    -ms-transition: all 900ms linear;
+    transition: all 900ms linear; }
+    .products .products-box .single-product:hover {
+      cursor: pointer; }
     .products .products-box .single-product h4 {
       top: 0;
       position: absolute;
@@ -592,6 +599,18 @@ a:hover {
       font-style: normal;
       font-weight: 500;
       line-height: normal; }
+  .products .products-box .single-product-close {
+    background-image: none !important;
+    background-color: #EBA93E;
+    -webkit-transition: all 900ms linear;
+    -moz-transition: all 900ms linear;
+    -o-transition: all 900ms linear;
+    -ms-transition: all 900ms linear;
+    transition: all 900ms linear; }
+  .products .products-box .single-product-content {
+    padding: 20px 60px 33px;
+    background: #F8F8F8;
+    display: none; }
 
 .our-team .single-team {
   text-align: center; }
@@ -757,6 +776,13 @@ footer {
 @media only screen and (max-width: 320px) {
   .navbar-default .navbar-header .navbar-brand {
     width: 250px;
-    padding: 0; } }
+    padding: 0; }
+
+  .products .products-container {
+    padding-left: 0;
+    padding-right: 0; }
+    .products .products-container .products-box {
+      padding-left: 0;
+      padding-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */
