@@ -105,6 +105,41 @@
 			.products-box {
 				padding-left: 0;
 				padding-right: 0;
+				.single-product {
+					padding-top: 17px;
+					padding-bottom: 17px;
+					.product-title {
+						@include roboto300;
+						background: $color-text-green;
+						width: 100%;
+						padding-top: 10px;
+						padding-bottom: 10px;
+						margin-top: 0;
+						&:after {
+							@include font-awesome;
+							content: '\f0d7';
+							float: right;
+							padding-right: 10px;
+						}
+					}
+				}
+				.single-product-close {
+					background-image: initial;
+					padding-top: 110px;
+					padding-bottom: 110px;
+					.product-title {
+						background-color: $color-background-orange;
+						&:after {
+							@include font-awesome;
+							content: '\f0d8';
+							float: right;
+							padding-right: 10px;
+						}
+					}
+				}
+				.single-product-content {
+					padding: 10px 10px 10px;
+				}
 			}
 		}
 	}
