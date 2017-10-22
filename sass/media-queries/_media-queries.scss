@@ -27,6 +27,14 @@
 						text-align: right;
 						font-size: $font-size-h2;
 					}
+					.dropdown-menu {
+						a {
+							color: $color-text-white;
+							&:hover {
+								color: $color-text-white;
+							}
+						}
+					}
 				}
 			}
 		}

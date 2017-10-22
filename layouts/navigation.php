@@ -29,6 +29,12 @@
 				<li><a href="/our-team">Our Team</a></li>
 				<li><a href="/faq">FAQ</a></li>
 				<li><a href="/contact">Contact</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li class="kopie"><a href="#">Dropdown</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 	</div>
