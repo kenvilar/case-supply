@@ -1,0 +1,65 @@
+@media only screen and (max-width: 767px) {
+	.navbar-default {
+		.navbar-header {
+			.navbar-toggle {
+				border-color: transparent;
+				margin-top: 20px;
+				&:hover {
+					background-color: transparent;
+				}
+				.icon-bar {
+					background-color: $color-text-green;
+					height: 4px;
+				}
+			}
+		}
+		.navbar-collapse {
+			border-color: transparent;
+			background-color: $color-text-green;
+			margin-top: 10px;
+			.navbar-nav {
+				padding-bottom: 40px;
+				padding-right: 10px;
+				li {
+					a {
+						color: $color-text-white;
+						text-align: right;
+						font-size: $font-size-h2;
+					}
+				}
+			}
+		}
+	}
+	#home-services {
+		padding-top: 0;
+		padding-bottom: 0;
+		.single-service {
+			padding-top: 30px;
+			padding-bottom: 30px;
+			&:nth-child(2) {
+				background-color: $color-background-gray;
+			}
+		}
+	}
+	.get-in-touch {
+		padding-bottom: 0 !important;
+		.container-fluid {
+			padding-right: 0;
+			padding-left: 0;
+		}
+		.single {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+	}
+}
+@media only screen and (max-width: 320px) {
+	.navbar-default {
+		.navbar-header {
+			.navbar-brand {
+				width: 250px;
+				padding: 0;
+			}
+		}
+	}
+}
