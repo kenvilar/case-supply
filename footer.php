@@ -11,32 +11,32 @@
 
 ?>
 
-	<section id="get-in-touch" class="text-center">
+	<section id="template-container" class="get-in-touch text-center">
 		<div class="container">
 			<div class="row">
 				<p class="header1 header">GET IN TOUCH</p>
 				<p class="header5">We'd love to hear from you!</p><br>
 			</div>
 		</div>
-		<div class="container color-white">
+		<div class="container-fluid color-white">
 			<div class="row">
-				<div class="col-md-offset-1 col-md-10">
+				<div class="col-md-offset-1 col-md-10 col-sm-12">
 					<a href="">
-						<div class="col-md-4 background-dark-gray">
+						<div class="col-md-4 col-sm-4 col-xs-12 single background-dark-gray">
 							<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/email.png'; ?>"
 							     alt="icon">
 							<p>information@casesupply.com</p>
 						</div>
 					</a>
 					<a href="">
-						<div class="col-md-4 background-green">
+						<div class="col-md-4 col-sm-4 col-xs-12 single background-green">
 							<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/call.png'; ?>"
 							     alt="icon">
 							<p>315.425.1818</p>
 						</div>
 					</a>
 					<a href="">
-						<div class="col-md-4 background-blue">
+						<div class="col-md-4 col-sm-4 col-xs-12 single background-blue">
 							<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/facebook.png'; ?>"
 							     alt="icon">
 							<p>Find us on Facebook</p>
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 	</section>
-
+	
 	<footer>
 		<div class="container">
 			<div class="row">

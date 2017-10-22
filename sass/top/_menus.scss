@@ -3,6 +3,10 @@
 	height: 82px;
 	background-color: $color-background-gray;
 
+	.navbar-toggle-close {
+		display: none;
+	}
+
 	.navbar-brand {
 		padding: 5px 30px 0;
 
