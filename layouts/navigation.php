@@ -17,13 +17,13 @@
 						src="<?php echo get_template_directory_uri() . '/assets/images/close.png'; ?>" alt="close">
 			</button>
 			<!--<a class="navbar-brand" href="#">Brand</a>-->
-			<a class="navbar-brand" href="#"><img
+			<a class="navbar-brand" href="/"><img
 						src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/original/case-supply-logo.png' ); ?>"
 						alt=""></a>
 		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<div class="collapse navbar-collapse" id="bs-navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="/">Home</a></li>
+				<li class="active"><a href="/">Home</a></li>
 				<li><a href="/services">Services</a></li>
 				<li><a href="/products">Products</a></li>
 				<li><a href="/our-team">Our Team</a></li>

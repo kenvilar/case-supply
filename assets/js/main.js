@@ -18,13 +18,15 @@
 
 		// Products toggle
 		$( this ).find( '.single-product-toggle' ).on( 'click', singleProductContentOpen );
+		$( '.single-product-close' ).on( 'click', singleProductContentClose );
+
 		function singleProductContentOpen( e ) {
 			e.preventDefault();
 			$( this ).next( '.single-product-content' ).slideToggle();
 			$( this ).toggleClass( 'single-product-close' );
 		}
-		$( '.single-product-close' ).on( 'click', singleProductContentClose );
-		function singleProductContentClose(e) {
+
+		function singleProductContentClose( e ) {
 			e.preventDefault();
 			$( '.single-product-content' ).fadeOut();
 		}
