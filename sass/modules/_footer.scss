@@ -17,6 +17,7 @@ footer {
 	padding-bottom: 20px;
 	background-color: $color-background-black;
 	a {
+		@include roboto500;
 		color: $color-text-white;
 		font-size: $font-size-small;
 	}

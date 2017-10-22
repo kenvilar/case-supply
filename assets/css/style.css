@@ -722,6 +722,10 @@ footer {
   padding-bottom: 20px;
   background-color: #000; }
   footer a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     color: #fff;
     font-size: 10px; }
 
@@ -794,47 +798,50 @@ footer {
     width: 250px;
     padding: 0; }
 
-  .products .products-container {
-    padding-left: 0;
-    padding-right: 0; }
-    .products .products-container .products-box {
+  .products {
+    padding-bottom: 20px !important; }
+    .products .products-container {
       padding-left: 0;
       padding-right: 0; }
-      .products .products-container .products-box .single-product {
-        padding-top: 17px;
-        padding-bottom: 17px; }
-        .products .products-container .products-box .single-product .product-title {
-          font-family: 'Roboto Light', sans-serif;
-          font-style: normal;
-          font-weight: 300;
-          line-height: normal;
-          background: #379D69;
-          width: 100%;
-          padding-top: 10px;
-          padding-bottom: 10px;
-          margin-top: 0; }
-          .products .products-container .products-box .single-product .product-title:after {
-            font-family: 'FontAwesome', sans-serif;
+      .products .products-container .products-box {
+        padding-left: 0;
+        padding-right: 0; }
+        .products .products-container .products-box .single-product {
+          padding-top: 17px;
+          padding-bottom: 17px; }
+          .products .products-container .products-box .single-product .product-title {
+            font-family: 'Roboto Light', sans-serif;
             font-style: normal;
+            font-weight: 300;
             line-height: normal;
-            content: '\f0d7';
-            float: right;
-            padding-right: 10px; }
-      .products .products-container .products-box .single-product-close {
-        background-image: initial;
-        padding-top: 145px;
-        padding-bottom: 145px; }
-        .products .products-container .products-box .single-product-close .product-title {
-          background-color: #EBA93E; }
-          .products .products-container .products-box .single-product-close .product-title:after {
-            font-family: 'FontAwesome', sans-serif;
-            font-style: normal;
-            line-height: normal;
-            content: '\f0d8';
-            float: right;
-            padding-right: 10px; }
-      .products .products-container .products-box .single-product-content {
-        padding: 10px 10px 10px; }
+            background: #379D69;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            margin-top: 0; }
+            .products .products-container .products-box .single-product .product-title:after {
+              font-family: 'FontAwesome', sans-serif;
+              font-style: normal;
+              line-height: normal;
+              content: '\f0d7';
+              float: right;
+              padding-right: 10px; }
+        .products .products-container .products-box .single-product-close {
+          background-image: initial;
+          padding-top: 145px;
+          padding-bottom: 145px; }
+          .products .products-container .products-box .single-product-close .product-title {
+            background-color: #EBA93E; }
+            .products .products-container .products-box .single-product-close .product-title:after {
+              font-family: 'FontAwesome', sans-serif;
+              font-style: normal;
+              line-height: normal;
+              content: '\f0d8';
+              float: right;
+              padding-right: 10px; }
+        .products .products-container .products-box .single-product-content {
+          padding: 10px 10px 10px; }
 
   .our-team .team-container {
     padding-left: 0;
