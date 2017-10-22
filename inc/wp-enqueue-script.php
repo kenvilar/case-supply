@@ -15,7 +15,7 @@ function casesupply_styles() {
 		'2017' );
 	
 	wp_enqueue_style( 'casesupply-style',
-		get_stylesheet_directory_uri() . '/assets/css/style.css',
+		get_stylesheet_directory_uri() . '/assets/css/style.min.css',
 		'',
 		'2017' );
 }
@@ -55,7 +55,7 @@ function casesupply_scripts() {
 		
 		wp_enqueue_script( 'casesupply-api-map',
 			'//maps.googleapis.com/maps/api/js?key=AIzaSyCLI2mmf0Q6SK6-_v4BT6xtizZgz06QWi0&callback=initMap',
-			array( 'casesupply-custom-map-js' ),
+			array( 'casesupply-custom-map' ),
 			'2017', true );
 	}
 	// End only display on Contact page
