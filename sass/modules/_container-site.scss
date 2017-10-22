@@ -66,9 +66,13 @@
 			-ms-transition: all 900ms linear;
 			transition: all 900ms linear;
 		}
+		.single-product-close + .single-product-content {
+			display: table !important;
+		}
 		.single-product-content {
 			padding: 20px 60px 33px;
 			background: $color-background-gray;
+			width: 100%;
 			display: none;
 		}
 	}

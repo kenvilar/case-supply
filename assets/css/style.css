@@ -607,9 +607,12 @@ a:hover {
     -o-transition: all 900ms linear;
     -ms-transition: all 900ms linear;
     transition: all 900ms linear; }
+  .products .products-box .single-product-close + .single-product-content {
+    display: table !important; }
   .products .products-box .single-product-content {
     padding: 20px 60px 33px;
     background: #F8F8F8;
+    width: 100%;
     display: none; }
 
 .our-team .single-team {
