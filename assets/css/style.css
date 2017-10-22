@@ -677,7 +677,9 @@ a:hover {
   font-weight: 300;
   line-height: normal;
   line-height: 20px; }
-.contact .map {
+
+#map {
+  height: 100%;
   padding-top: 135px;
   padding-bottom: 135px; }
 

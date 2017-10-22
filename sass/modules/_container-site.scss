@@ -137,8 +137,9 @@
 			line-height: 20px;
 		}
 	}
-	.map {
-		padding-top: 135px;
-		padding-bottom: 135px;
-	}
+}
+#map {
+	height: 100%;
+	padding-top: 135px;
+	padding-bottom: 135px;
 }
