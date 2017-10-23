@@ -33,7 +33,8 @@ get_header(); ?>
 							</div>
 						</div>
 					
-					<?php endwhile; ?>
+					<?php endwhile;
+					wp_reset_postdata(); ?>
 				<?php else : ?>
 					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
 						<div class="col-md-2 col-sm-2 col-xs-1">
@@ -105,7 +106,8 @@ get_header(); ?>
 							</p>
 						</div>
 					</div>
-				<?php endif; ?>
+				<?php endif;
+				wp_reset_query(); ?>
 			</div>
 		</div>
 	</div>
@@ -131,7 +133,8 @@ get_header(); ?>
 							Friday <br>
 							Saturday* <br>
 							Sunday <br>
-						<?php endif; ?>
+						<?php endif;
+						wp_reset_query(); ?>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-7 time nopaddingright">
 						<?php if ( have_rows( 'hours_of_operations' ) ) : ?>
@@ -148,7 +151,8 @@ get_header(); ?>
 							9:00 AM - 5:00 PM <br>
 							9:00 AM - 1:00 PM <br>
 							CLOSED
-						<?php endif; ?>
+						<?php endif;
+						wp_reset_query(); ?>
 					</div>
 				</div>
 				<div class="col-md-5 col-sm-12 col-xs-12">

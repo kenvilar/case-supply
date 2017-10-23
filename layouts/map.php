@@ -121,6 +121,8 @@
 		<script async defer
 		        src="//maps.googleapis.com/maps/api/js?key=<?php echo ( $api_key ) ? $api_key : 'AIzaSyCLI2mmf0Q6SK6-_v4BT6xtizZgz06QWi0'; ?>&callback=initMap"></script>
 	
-	<?php endwhile; ?>
+	<?php endwhile;
+	wp_reset_postdata(); ?>
 
-<?php endif; ?>
+<?php endif;
+wp_reset_query(); ?>

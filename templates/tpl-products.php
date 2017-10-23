@@ -45,7 +45,8 @@ get_header(); ?>
 								<?php echo $content; ?>
 							</div>
 						</div>
-					<?php endwhile; ?>
+					<?php endwhile;
+					wp_reset_postdata(); ?>
 				<?php else : ?>
 					<div class="col-md-12">
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
@@ -127,7 +128,8 @@ get_header(); ?>
 							Check out our newly remodeled showroom for the latest trends in Kitchen & Bath styles!
 						</div>
 					</div>
-				<?php endif; ?>
+				<?php endif;
+				wp_reset_query(); ?>
 			</div>
 		</div>
 	</div>

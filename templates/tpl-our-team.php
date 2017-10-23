@@ -23,7 +23,8 @@ get_header(); ?>
 						<p><?php echo $name; ?>
 							<br><span><?php echo $role; ?></span></p>
 					</div>
-				<?php endwhile; ?>
+				<?php endwhile;
+				wp_reset_postdata(); ?>
 			<?php else : ?>
 				<div class="col-md-3 col-sm-6 col-xs-12 equal-height single-team">
 					<img src="<?php echo get_template_directory_uri() . '/assets/images/team/Joe-Cicci.png'; ?>"
@@ -120,7 +121,8 @@ get_header(); ?>
 					<p>Name
 						<br><span>Position</span></p>
 				</div>
-			<?php endif; ?>
+			<?php endif;
+			wp_reset_query(); ?>
 		</div>
 	</div>
 </section>

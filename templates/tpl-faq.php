@@ -16,7 +16,8 @@ get_header(); ?>
 						<div class="question"><?php echo $question; ?></div>
 						<div class="answer"><?php echo $answer; ?></div>
 					</div>
-				<?php endwhile; ?>
+				<?php endwhile;
+				wp_reset_postdata(); ?>
 			<?php else : ?>
 				<div class="col-md-offset-2 col-md-8 single-faq">
 					<div class="question">Do I need an appointment?</div>
@@ -74,7 +75,8 @@ get_header(); ?>
 					<div class="question">Do you offer financing?</div>
 					<div class="answer">Synchrony Bank</div>
 				</div>
-			<?php endif; ?>
+			<?php endif;
+			wp_reset_query(); ?>
 		</div>
 	</div>
 </section>

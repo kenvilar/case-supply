@@ -32,7 +32,8 @@ get_header(); ?>
 						<h3><?php echo $title; ?></h3>
 						<p><?php echo $content; ?></p>
 					</div>
-				<?php endwhile; ?>
+				<?php endwhile;
+				wp_reset_postdata(); ?>
 			<?php else : ?>
 				<div class="text-center single-service col-md-4 col-sm-12 col-xs-12 equal-height">
 					<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/design.png'; ?>"
@@ -53,7 +54,8 @@ get_header(); ?>
 					<h3>DELIVERY</h3>
 					<p>Our experts will make sure your products are delivered safely and on time to your doorstep.</p>
 				</div>
-			<?php endif; ?>
+			<?php endif;
+			wp_reset_query(); ?>
 		</div>
 	</div>
 </section>

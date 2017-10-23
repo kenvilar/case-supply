@@ -30,7 +30,8 @@ get_header(); ?>
 								<p><?php echo $content; ?></p>
 							</div>
 						</div>
-					<?php endwhile; ?>
+					<?php endwhile;
+					wp_reset_postdata(); ?>
 				<?php else : ?>
 					<div class="col-md-6 col-sm-12 equal-height">
 						<div class="col-md-2">
@@ -104,7 +105,8 @@ get_header(); ?>
 							<p>Select from a number of payment options to ensure your project’s affordability.</p>
 						</div>
 					</div>
-				<?php endif; ?>
+				<?php endif;
+				wp_reset_query(); ?>
 			</div>
 		</div>
 	</div>
