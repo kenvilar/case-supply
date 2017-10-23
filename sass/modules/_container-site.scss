@@ -84,6 +84,12 @@
 .our-team {
 	.single-team {
 		text-align: center;
+		img:hover {
+			transition: all 0.50s ease-out 0ms;
+			-webkit-transform: scale(1.2);
+			-moz-transform: scale(1.2);
+			transform: scale(1.1);
+		}
 		p {
 			@include roboto900;
 			font-size: $font-size-h4;
