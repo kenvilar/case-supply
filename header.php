@@ -22,19 +22,26 @@
 
 <body <?php body_class(); ?>>
 
+<div class="preloader">
+	<div class="pl-line pl-line-1"></div>
+	<div class="pl-line pl-line-2"></div>
+	<div class="pl-line pl-line-3"></div>
+	<div class="pl-line pl-line-4"></div>
+</div>
+
 <div id="main-container">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'casesupply' ); ?></a>
 	
 	<?php require 'layouts/navigation.php'; ?>
 	
 	<?php if ( ! is_home() ) : ?>
-	<section id="normal-banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-offset-2 col-md-10">
-					<h1><?php echo get_the_title(); ?></h1>
+		<section id="normal-banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-2 col-md-10">
+						<h1><?php echo get_the_title(); ?></h1>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 	<?php endif; ?>
