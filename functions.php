@@ -149,3 +149,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  * Custom Navigation Menu
  */
 require get_template_directory() . '/inc/navigation-menu.php';
+
+/**
+ * ACF Pro Plugin
+ */
+require get_template_directory() . '/inc/acf-options.php';
