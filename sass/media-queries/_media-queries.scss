@@ -20,18 +20,23 @@
 			margin-top: 10px;
 			.navbar-nav {
 				padding-bottom: 40px;
-				padding-right: 10px;
 				li {
+					&.active a {
+						color: $color-text-green;
+						background-color: $color-background-gray !important;
+					}
 					a {
 						color: $color-text-white;
 						text-align: right;
 						font-size: $font-size-h2;
 					}
 					.dropdown-menu {
-						a {
-							color: $color-text-white;
-							&:hover {
-								color: $color-text-white;
+						li {
+							&.active a, &:hover a, &.active:hover a {
+								color: $color-text-green;
+							}
+							a {
+								color: $color-text;
 							}
 						}
 					}

@@ -2,24 +2,26 @@
 	margin-bottom: 0;
 	height: 82px;
 	background-color: $color-background-gray;
-
 	.navbar-toggle-close {
 		display: none;
 	}
-
 	.navbar-brand {
 		padding: 5px 30px 0;
-
 		img {
 			width: 216px;
 			height: 65px;
 		}
 	}
-
 	.navbar-nav {
 		padding-top: 20px;
-
 		li {
+			&.active a, &.active a:hover {
+				color: $color-text-green;
+				background-color: transparent !important;
+			}
+			&:focus {
+				outline: 0;
+			}
 			a {
 				color: $color-text;
 				@include roboto300;
@@ -29,9 +31,24 @@
 			}
 			.dropdown-menu {
 				border-radius: 0;
-				a {
-					padding-top: 10px;
-					padding-bottom: 10px;
+				&:focus {
+					outline: 0;
+				}
+				li {
+					&.active a {
+						color: $color-text-green;
+					}
+					&:focus {
+						outline: 0;
+					}
+					a {
+						color: $color-text;
+						padding-top: 10px;
+						padding-bottom: 10px;
+						&:focus {
+							outline: 0;
+						}
+					}
 				}
 			}
 		}
