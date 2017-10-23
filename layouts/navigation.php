@@ -6,14 +6,14 @@
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle navbar-toggle-open" data-toggle="collapse"
-			        data-target="#bs-example-navbar-collapse-1">
+			        data-target="#bs-navbar-collapse">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
 			<button type="button" class="navbar-toggle navbar-toggle-close" data-toggle="collapse"
-			        data-target="#bs-example-navbar-collapse-1"><img
+			        data-target="#bs-navbar-collapse"><img
 						src="<?php echo get_template_directory_uri() . '/assets/images/close.png'; ?>" alt="close">
 			</button>
 			<!--<a class="navbar-brand" href="#">Brand</a>-->
@@ -21,21 +21,21 @@
 						src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/original/case-supply-logo.png' ); ?>"
 						alt=""></a>
 		</div>
-		<div class="collapse navbar-collapse" id="bs-navbar-collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="/">Home</a></li>
-				<li><a href="/services">Services</a></li>
-				<li><a href="/products">Products</a></li>
-				<li><a href="/our-team">Our Team</a></li>
-				<li><a href="/faq">FAQ</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li class="kopie"><a href="#">Dropdown</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
+		<?php
+		wp_nav_menu( array(
+			'menu'            => 'menu',
+			'container'       => 'div',
+			'container_class' => 'collapse navbar-collapse',
+			'container_id'    => 'bs-navbar-collapse',
+			'menu_class'      => 'nav navbar-nav navbar-right',
+			'echo'            => true,
+			'fallback_cb'     => 'wp_page_menu',
+			'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
+			'item_spacing'    => 'preserve',
+			'depth'           => 0,
+			'walker'          => new Bootstrap_Walker_Nav_Menu(),
+			'theme_location'  => 'primary-menu',
+		) );
+		?>
 	</div>
 </nav>
