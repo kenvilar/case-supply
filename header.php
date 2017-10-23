@@ -34,7 +34,7 @@
 	
 	<?php require 'layouts/navigation.php'; ?>
 	
-	<?php if ( ! is_home() ) : ?>
+	<?php if ( ! is_front_page() ) : ?>
 		<section id="normal-banner">
 			<div class="container">
 				<div class="row">
