@@ -46,6 +46,11 @@ function casesupply_scripts() {
 		array( 'jquery' ),
 		'2017', true );
 	
+	wp_enqueue_script( 'casesupply-viewport',
+		get_template_directory_uri() . '/assets/lib/jquery.viewportchecker.min.js',
+		array( 'jquery' ),
+		'2017', true );
+	
 	// Only display on Contact page
 	if ( is_page( 'contact' ) ) {
 		wp_enqueue_script( 'casesupply-custom-map',
