@@ -136,8 +136,12 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="col-md-5 col-sm-12 col-xs-12">
-					*We are open on Saturday's from Labor Day to Memorial Day ONLY. We are CLOSED on Saturday's during
-					the summer months.
+					<?php if ( get_field( 'additional_notes_for_hour_of_operations' ) ) :
+						the_field( 'additional_notes_for_hour_of_operations' );
+					else : ?>
+						*We are open on Saturday's from Labor Day to Memorial Day ONLY. We are CLOSED on Saturday's during
+						the summer months.
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>
