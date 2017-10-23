@@ -1,17 +1,3 @@
-@media screen and (min-width: 1280px) {
-	#banner {
-		.jumbotron {
-			background-position: center bottom;
-		}
-	}
-}
-@media screen and (min-width: 992px) {
-	#home-services {
-		.container {
-			width: 900px;
-		}
-	}
-}
 @media screen and (max-width: 767px) {
 	.navbar-default {
 		z-index: 1;

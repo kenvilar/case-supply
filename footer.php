@@ -22,21 +22,21 @@
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10 col-sm-12">
 					<div class="col-md-4 col-sm-4 col-xs-12 single background-dark-gray">
-						<a href="">
+						<a href="mailto:information@casesupply.com">
 							<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/email.png'; ?>"
 							     alt="icon">
 							<p>information@casesupply.com</p>
 						</a>
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-12 single background-green">
-						<a href="">
+						<a href="tel:315.425.1818">
 							<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/call.png'; ?>"
 							     alt="icon">
 							<p>315.425.1818</p>
 						</a>
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-12 single background-blue">
-						<a href="">
+						<a href="https://www.facebook.com/casesupplyinc/">
 							<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/facebook.png'; ?>"
 							     alt="icon">
 							<p>Find us on Facebook</p>
