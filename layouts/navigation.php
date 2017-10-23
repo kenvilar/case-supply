@@ -16,10 +16,17 @@
 			        data-target="#bs-navbar-collapse"><img
 						src="<?php echo get_template_directory_uri() . '/assets/images/close.png'; ?>" alt="close">
 			</button>
-			<!--<a class="navbar-brand" href="#">Brand</a>-->
-			<a class="navbar-brand" href="/"><img
-						src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/original/case-supply-logo.png' ); ?>"
-						alt=""></a>
+			<?php if ( get_field( 'logo', 'option' ) ): ?>
+
+				<a class="navbar-brand" href="/">
+					<img src="<?php the_field( 'logo', 'option' ); ?>" alt="logo">
+				</a>
+			
+			<?php else : ?>
+
+				<a class="navbar-brand manual-text" href="/">CASE SUPPLY</a>
+			
+			<?php endif; ?>
 		</div>
 		<?php
 		wp_nav_menu( array(

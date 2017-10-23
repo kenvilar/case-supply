@@ -11,6 +11,12 @@
 			width: 216px;
 			height: 65px;
 		}
+		&.manual-text {
+			position: absolute;
+			bottom: 0;
+			@include roboto900;
+			color: $color-text-green;
+		}
 	}
 	.navbar-nav {
 		padding-top: 20px;
