@@ -117,22 +117,38 @@ get_header(); ?>
 			<div class="col-md-offset-2 col-md-8 nopaddingleft">
 				<div class="col-md-7 col-sm-12 col-xs-12">
 					<div class="col-md-5 col-sm-5 col-xs-4 days nopaddingleft nopaddingright">
-						Monday <br>
-						Tuesday <br>
-						Wednesday <br>
-						Thursday <br>
-						Friday <br>
-						Saturday* <br>
-						Sunday <br>
+						<?php if ( have_rows( 'hours_of_operations' ) ) : ?>
+							<?php while ( have_rows( 'hours_of_operations' ) ) : the_row();
+								$day = get_sub_field( 'day' );
+								echo $day . '<br>';
+							endwhile;
+							wp_reset_postdata(); ?>
+						<?php else : ?>
+							Monday <br>
+							Tuesday <br>
+							Wednesday <br>
+							Thursday <br>
+							Friday <br>
+							Saturday* <br>
+							Sunday <br>
+						<?php endif; ?>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-7 time nopaddingright">
-						9:00 AM - 5:00 PM <br>
-						9:00 AM - 5:00 PM <br>
-						9:00 AM - 5:00 PM <br>
-						9:00 AM - 5:00 PM <br>
-						9:00 AM - 5:00 PM <br>
-						9:00 AM - 1:00 PM <br>
-						CLOSED
+						<?php if ( have_rows( 'hours_of_operations' ) ) : ?>
+							<?php while ( have_rows( 'hours_of_operations' ) ) : the_row();
+								$time = get_sub_field( 'time' );
+								echo $time . '<br>';
+							endwhile;
+							wp_reset_postdata(); ?>
+						<?php else : ?>
+							9:00 AM - 5:00 PM <br>
+							9:00 AM - 5:00 PM <br>
+							9:00 AM - 5:00 PM <br>
+							9:00 AM - 5:00 PM <br>
+							9:00 AM - 5:00 PM <br>
+							9:00 AM - 1:00 PM <br>
+							CLOSED
+						<?php endif; ?>
 					</div>
 				</div>
 				<div class="col-md-5 col-sm-12 col-xs-12">
