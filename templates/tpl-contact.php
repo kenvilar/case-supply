@@ -11,7 +11,7 @@ get_header(); ?>
 				<div class="uppercase title">Our Showrooms</div>
 			</div>
 			<div class="col-md-offset-1 col-md-10 col-sm-12 col-xs-12">
-				<div class="location col-md-6 col-sm-12 col-xs-12">
+				<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
 					<div class="col-md-2 col-sm-2 col-xs-1">
 						<img class="pull-right"
 						     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
@@ -25,7 +25,7 @@ get_header(); ?>
 						</p>
 					</div>
 				</div>
-				<div class="location col-md-6 col-sm-12 col-xs-12">
+				<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
 					<div class="col-md-2 col-sm-2 col-xs-1">
 						<img class="pull-right"
 						     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
@@ -39,7 +39,7 @@ get_header(); ?>
 						</p>
 					</div>
 				</div>
-				<div class="location col-md-6 col-sm-12 col-xs-12">
+				<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
 					<div class="col-md-2 col-sm-2 col-xs-1">
 						<img class="pull-right"
 						     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
@@ -53,7 +53,7 @@ get_header(); ?>
 						</p>
 					</div>
 				</div>
-				<div class="location col-md-6 col-sm-12 col-xs-12">
+				<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
 					<div class="col-md-2 col-sm-2 col-xs-1">
 						<img class="pull-right"
 						     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
@@ -67,7 +67,7 @@ get_header(); ?>
 						</p>
 					</div>
 				</div>
-				<div class="location col-md-6 col-sm-12 col-xs-12">
+				<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
 					<div class="col-md-2 col-sm-2 col-xs-1">
 						<img class="pull-right"
 						     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
