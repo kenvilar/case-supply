@@ -18,6 +18,13 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	
 	<?php wp_head(); ?>
+	
+	<?php if ( get_field( 'custom_css', 'option' ) ) : ?>
+		<style type="text/css">
+			<?php the_field( 'custom_css', 'option' ); ?>
+		</style>
+	<?php endif; ?>
+
 </head>
 
 <body <?php body_class(); ?>>
