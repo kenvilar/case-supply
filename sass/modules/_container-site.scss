@@ -11,6 +11,9 @@
 	@include paddingtopandbottom;
 	.single-service {
 		border-right: 2px solid #E8E8E8;
+		h3 {
+			text-transform: uppercase;
+		}
 		p {
 			padding-left: 50px;
 			padding-right: 50px;
