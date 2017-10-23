@@ -2,15 +2,36 @@
 	@include roboto900;
 	line-height: inherit;
 }
-.background-green {
-	background-color: $color-background-green;
-}
 .background-dark-gray {
-	background-color: $color-background-dark-gray;
+	background-color: #a4a4a4;
+}
+.background-green {
+	background-color: #50a579;
 }
 .background-blue {
-	background-color: $color-background-blue;
+	background-color: #5f9ae0;
 }
 .color-white {
 	color: $color-text-white;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.nopadding {
+	padding: 0;
+}
+.nopaddingtop {
+	padding-top: 0;
+}
+.nopaddingbottom {
+	padding-bottom: 0;
+}
+.nopaddingleft {
+	padding-left: 0;
+}
+.nopaddingright {
+	padding-right: 0;
+}
+.equal-height {
+	margin-bottom: 5px;
 }

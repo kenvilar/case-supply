@@ -1,4 +1,18 @@
-@media only screen and (max-width: 767px) {
+@media screen and (min-width: 1280px) {
+	#banner {
+		.jumbotron {
+			background-position: center bottom;
+		}
+	}
+}
+@media screen and (min-width: 992px) {
+	#home-services {
+		.container {
+			width: 900px;
+		}
+	}
+}
+@media screen and (max-width: 767px) {
 	.navbar-default {
 		z-index: 1;
 		.navbar-header {
@@ -102,7 +116,7 @@
 		}
 	}
 }
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
 	.navbar-default {
 		.navbar-header {
 			.navbar-brand {
@@ -185,7 +199,7 @@
 		}
 	}
 }
-@media only screen and (max-width: 318px) {
+@media screen and (max-width: 318px) {
 	.contact {
 		.hours-of-operation {
 			.days {

@@ -1,12 +1,10 @@
 #banner {
 	.jumbotron {
-		padding-top: 175px;
-		padding-bottom: 175px;
-	}
-	.jumbotron {
 		background-repeat: no-repeat;
-		background-position: center center;
+		background-position: center -60px;
 		background-size: cover;
+		background-attachment: fixed;
+		height: 45vh;
 	}
 }
 #normal-banner {
