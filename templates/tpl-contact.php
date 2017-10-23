@@ -11,76 +11,101 @@ get_header(); ?>
 				<div class="uppercase title">Our Showrooms</div>
 			</div>
 			<div class="col-md-offset-1 col-md-10 col-sm-12 col-xs-12">
-				<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
-					<div class="col-md-2 col-sm-2 col-xs-1">
-						<img class="pull-right"
-						     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-						     alt="location">
+				<?php if ( have_rows( 'list_of_locations' ) ) : ?>
+					<?php while ( have_rows( 'list_of_locations' ) ) : the_row();
+						$location_name = get_sub_field( 'location_name' );
+						$address       = get_sub_field( 'address' );
+						$telephone     = get_sub_field( 'telephone' );
+						$fax           = get_sub_field( 'fax' ); ?>
+
+						<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
+							<div class="col-md-2 col-sm-2 col-xs-1">
+								<img class="pull-right"
+								     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+								     alt="location">
+							</div>
+							<div class="col-md-10 col-sm-10 col-xs-10 address">
+								<h4><?php echo $location_name; ?></h4>
+								<p>
+									<?php echo $address; ?><br>
+									<?php echo ( $telephone ) ? 't ' . $telephone . '&nbsp;&nbsp;&nbsp;' : ''; ?><?php if ( $fax ) : ?>f <?php echo $fax; ?><?php endif; ?>
+								</p>
+							</div>
+						</div>
+					
+					<?php endwhile; ?>
+				<?php else : ?>
+					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
+						<div class="col-md-2 col-sm-2 col-xs-1">
+							<img class="pull-right"
+							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+							     alt="location">
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10 address">
+							<h4>Syracuse Showroom</h4>
+							<p>
+								601 West Fayette Street Syracuse, NY 13204 <br>
+								t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.471.0597
+							</p>
+						</div>
 					</div>
-					<div class="col-md-10 col-sm-10 col-xs-10 address">
-						<h4>Syracuse Showroom</h4>
-						<p>
-							601 West Fayette Street Syracuse, NY 13204 <br>
-							t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.471.0597
-						</p>
+					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
+						<div class="col-md-2 col-sm-2 col-xs-1">
+							<img class="pull-right"
+							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+							     alt="location">
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10 address">
+							<h4>Amsterdam Showroom</h4>
+							<p>
+								4184 State Highway 30 Amsterdam, NY 12010-6202 <br>
+								t 518.883.7218&nbsp;&nbsp;&nbsp;f 518.883.7225
+							</p>
+						</div>
 					</div>
-				</div>
-				<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
-					<div class="col-md-2 col-sm-2 col-xs-1">
-						<img class="pull-right"
-						     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-						     alt="location">
+					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
+						<div class="col-md-2 col-sm-2 col-xs-1">
+							<img class="pull-right"
+							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+							     alt="location">
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10 address">
+							<h4>Auburn Showroom</h4>
+							<p>
+								360 Grant Avenue, Suite 102 Auburn, NY 13021 <br>
+								t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.471.0597
+							</p>
+						</div>
 					</div>
-					<div class="col-md-10 col-sm-10 col-xs-10 address">
-						<h4>Amsterdam Showroom</h4>
-						<p>
-							4184 State Highway 30 Amsterdam, NY 12010-6202 <br>
-							t 518.883.7218&nbsp;&nbsp;&nbsp;f 518.883.7225
-						</p>
+					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
+						<div class="col-md-2 col-sm-2 col-xs-1">
+							<img class="pull-right"
+							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+							     alt="location">
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10 address">
+							<h4>The Warehouse</h4>
+							<p>
+								150 Ainsley Drive Syracuse, NY 13210 <br>
+								t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.424.0626
+							</p>
+						</div>
 					</div>
-				</div>
-				<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
-					<div class="col-md-2 col-sm-2 col-xs-1">
-						<img class="pull-right"
-						     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-						     alt="location">
+					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
+						<div class="col-md-2 col-sm-2 col-xs-1">
+							<img class="pull-right"
+							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+							     alt="location">
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10 address">
+							<h4>Rome Showroom</h4>
+							<p>
+								293-295 East Dominick Street Rome, NY 13440 <br>
+								t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.471.0597
+							</p>
+						</div>
 					</div>
-					<div class="col-md-10 col-sm-10 col-xs-10 address">
-						<h4>Auburn Showroom</h4>
-						<p>
-							360 Grant Avenue, Suite 102 Auburn, NY 13021 <br>
-							t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.471.0597
-						</p>
-					</div>
-				</div>
-				<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
-					<div class="col-md-2 col-sm-2 col-xs-1">
-						<img class="pull-right"
-						     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-						     alt="location">
-					</div>
-					<div class="col-md-10 col-sm-10 col-xs-10 address">
-						<h4>The Warehouse</h4>
-						<p>
-							150 Ainsley Drive Syracuse, NY 13210 <br>
-							t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.424.0626
-						</p>
-					</div>
-				</div>
-				<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
-					<div class="col-md-2 col-sm-2 col-xs-1">
-						<img class="pull-right"
-						     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-						     alt="location">
-					</div>
-					<div class="col-md-10 col-sm-10 col-xs-10 address">
-						<h4>Rome Showroom</h4>
-						<p>
-							293-295 East Dominick Street Rome, NY 13440 <br>
-							t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.471.0597
-						</p>
-					</div>
-				</div>
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>
@@ -120,5 +145,7 @@ get_header(); ?>
 </section>
 
 <div id="map"></div>
+
+<?php require get_template_directory() . '/layouts/map.php'; ?>
 
 <?php get_footer(); ?>

@@ -51,20 +51,6 @@ function casesupply_scripts() {
 		array( 'jquery' ),
 		'2017', true );
 	
-	// Only display on Contact page
-	if ( is_page( 'contact' ) ) {
-		wp_enqueue_script( 'casesupply-custom-map',
-			get_template_directory_uri() . '/assets/js/map.js',
-			array(),
-			'2017', true );
-		
-		wp_enqueue_script( 'casesupply-api-map',
-			'//maps.googleapis.com/maps/api/js?key=AIzaSyCLI2mmf0Q6SK6-_v4BT6xtizZgz06QWi0&callback=initMap',
-			array( 'casesupply-custom-map' ),
-			'2017', true );
-	}
-	// End only display on Contact page
-	
 	wp_enqueue_script( 'casesupply-main',
 		get_template_directory_uri() . '/assets/js/main.js',
 		array( 'jquery' ),
