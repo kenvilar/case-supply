@@ -1,3 +1,10 @@
+@media screen and (max-width: 991px) {
+	#home-services {
+		.single-service {
+			border-right: transparent;
+		}
+	}
+}
 @media screen and (max-width: 767px) {
 	.navbar-default {
 		z-index: 1;
