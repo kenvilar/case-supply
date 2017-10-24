@@ -19,3 +19,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 		</div>
 	</div>
 </section>
+
+<style>
+	.get-in-touch { background-color: transparent; }
+</style>

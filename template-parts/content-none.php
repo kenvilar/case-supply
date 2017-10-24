@@ -16,7 +16,7 @@
 				<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'casesupply' ); ?></h1>
 			</header>
 
-			<div class="container">
+			<div class="">
 				<?php
 				if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
@@ -46,7 +46,7 @@
 
 					<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'casesupply' ); ?></p>
 
-					<div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-12">
+					<div class="col-lg-offset-4 col-lg-4 col-md-offset-2 col-md-8 col-sm-offset-3 col-sm-6 col-xs-12">
 						<?php get_search_form(); ?>
 					</div>
 				
