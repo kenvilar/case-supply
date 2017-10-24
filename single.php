@@ -30,5 +30,5 @@ get_header(); ?>
 	</section>
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();

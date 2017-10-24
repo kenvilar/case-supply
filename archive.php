@@ -9,9 +9,9 @@
 
 get_header(); ?>
 
-	<section id="primary"
-	         class="content-area container <?php echo is_dynamic_sidebar() ? 'col-md-9 col-sm-12 col-xs-12 equal-height' : ''; ?>">
-		<div id="main" class="site-main">
+	<section id="primary" class="content-area">
+		<div id="main" class="container site-main">
+			<?php echo is_dynamic_sidebar() ? '<div class="col-md-9 col-sm-12 col-xs-12 equal-height"' : ''; ?>
 			
 			<?php
 			if ( have_posts() ) : ?>
@@ -37,11 +37,13 @@ get_header(); ?>
 				get_template_part( 'template-parts/content', 'none' );
 			
 			endif; ?>
+			
+			<?php echo is_dynamic_sidebar() ? '</div>' : ''; ?>
+			
+			<?php get_sidebar(); ?>
 
 		</div>
 	</section>
-
-<?php get_sidebar(); ?>
 
 <?php
 get_footer();
