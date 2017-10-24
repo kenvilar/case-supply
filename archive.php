@@ -9,8 +9,9 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<div id="main" class="container site-main">
+	<section id="primary"
+	         class="content-area container <?php echo is_dynamic_sidebar() ? 'col-md-9 col-sm-12 col-xs-12 equal-height' : ''; ?>">
+		<div id="main" class="site-main">
 			
 			<?php
 			if ( have_posts() ) : ?>
@@ -38,8 +39,9 @@ get_header(); ?>
 			endif; ?>
 
 		</div>
-	</div>
+	</section>
+
+<?php get_sidebar(); ?>
 
 <?php
-get_sidebar();
 get_footer();
