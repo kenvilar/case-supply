@@ -1,0 +1,38 @@
+/* Wordpress Search Form */
+form.search-form {
+	margin-bottom: 15px;
+	.search-field {
+		@include form-control;
+	}
+	.search-submit {
+		@include default-button;
+		&:hover {
+			@include default-button-hover;
+		}
+	}
+}
+/* Comments */
+.comments-area {
+	margin-top: 50px;
+	.comment-list {
+		footer {
+			background-color: transparent;
+			div a {
+				color: #4A4A4A;
+			}
+		}
+	}
+	.comment-respond {
+		input, textarea {
+			@include form-control;
+			height: auto;
+		}
+		input[type='submit'] {
+			@include default-button;
+			width: auto;
+			&:hover {
+				@include default-button-hover;
+			}
+		}
+	}
+}

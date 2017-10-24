@@ -2,49 +2,56 @@
 /**
  * Template part for displaying a message that posts cannot be found
  *
- * @link https://codex.wordpress.org/Template_Hierarchy
+ * @link    https://codex.wordpress.org/Template_Hierarchy
  *
  * @package casesupply
  */
 
 ?>
 
-<section class="no-results not-found">
-	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'casesupply' ); ?></h1>
-	</header><!-- .page-header -->
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<section class="no-results not-found">
+			<header class="page-header">
+				<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'casesupply' ); ?></h1>
+			</header>
 
-	<div class="page-content">
-		<?php
-		if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
+			<div class="container">
+				<?php
+				if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
-			<p><?php
-				printf(
-					wp_kses(
-						/* translators: 1: link to WP admin new post page. */
-						__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'casesupply' ),
-						array(
-							'a' => array(
-								'href' => array(),
+					<p><?php
+						printf(
+							wp_kses(
+								__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'casesupply' ),
+								array(
+									'a' => array(
+										'href' => array(),
+									),
+								)
 							),
-						)
-					),
-					esc_url( admin_url( 'post-new.php' ) )
-				);
-			?></p>
+							esc_url( admin_url( 'post-new.php' ) )
+						);
+						?></p>
+				
+				<?php elseif ( is_search() ) : ?>
 
-		<?php elseif ( is_search() ) : ?>
+					<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'casesupply' ); ?></p>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'casesupply' ); ?></p>
-			<?php
-				get_search_form();
+					<div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-12">
+						<?php get_search_form(); ?>
+					</div>
+				
+				<?php else : ?>
 
-		else : ?>
+					<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'casesupply' ); ?></p>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'casesupply' ); ?></p>
-			<?php
-				get_search_form();
-
-		endif; ?>
-	</div><!-- .page-content -->
-</section><!-- .no-results -->
+					<div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-12">
+						<?php get_search_form(); ?>
+					</div>
+				
+				<?php endif; ?>
+			</div>
+		</section>
+	</div>
+</div>
