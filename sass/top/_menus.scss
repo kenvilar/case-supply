@@ -21,6 +21,7 @@
 	.navbar-nav {
 		padding-top: 20px;
 		li {
+			margin-left: 10px;
 			&.active a, &.active a:hover {
 				color: $color-text-green;
 				background-color: transparent !important;
