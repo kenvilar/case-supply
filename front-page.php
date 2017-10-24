@@ -39,20 +39,19 @@ get_header(); ?>
 					<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/design.png'; ?>"
 					     alt="icon">
 					<h3>DESIGN</h3>
-					<p>Our certified designers will come to you in the comfort of your home to design the kitchen or
-						bath of your dreams.</p>
+					<p>Our experienced designers will create the kitchen and bath of your dreams.</p>
 				</div>
 				<div class="text-center single-service col-md-4 col-sm-12 col-xs-12 equal-height">
 					<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/installation.png'; ?>"
 					     alt="icon">
 					<h3>INSTALLATION</h3>
-					<p>Case Supply’s professional contractors will complete your project to perfection.</p>
+					<p>Case Supply's professional installers will help make your project come to life.</p>
 				</div>
 				<div class="text-center single-service col-md-4 col-sm-12 col-xs-12 equal-height">
 					<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/delivery.png'; ?>"
 					     alt="icon">
 					<h3>DELIVERY</h3>
-					<p>Our experts will make sure your products are delivered safely and on time to your doorstep.</p>
+					<p>Our team will assure your products are delivered safely and on time.</p>
 				</div>
 			<?php endif;
 			wp_reset_query(); ?>
