@@ -1,4 +1,12 @@
 @media screen and (min-width: 1200px) {
+	.navbar-default {
+		.navigation-offset {
+			margin-left: 5%;
+		}
+		.navigation-lg {
+			width: 90%;
+		}
+	}
 	#banner {
 		.jumbotron {
 			background-position: center bottom;

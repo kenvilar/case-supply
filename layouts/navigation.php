@@ -3,7 +3,7 @@
 ?>
 
 <nav class="navbar navbar-default" role="navigation">
-	<div class="container-fluid navigation-container col-lg-offset-1 col-lg-10">
+	<div class="container-fluid navigation-offset navigation-lg">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle navbar-toggle-open" data-toggle="collapse"
 			        data-target="#bs-navbar-collapse">
