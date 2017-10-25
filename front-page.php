@@ -3,18 +3,13 @@
 get_header(); ?>
 
 <section id="banner">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="jumbotron"
-			     style="background-image: url(<?php
-			     if ( get_field( 'banner_image' ) ) :
-				     the_field( 'banner_image' );
-			     else :
-				     echo get_template_directory_uri() . '/assets/images/original/banner-homepage-original.png';
-			     endif; ?>);">
-			</div>
-		</div>
-	</div>
+	<?php
+	if ( get_field( 'home_slider' ) ) :
+		the_field( 'home_slider' );
+	else :
+		putRevSlider( "home_slider", "homepage" );
+	endif;
+	?>
 </section>
 
 <section id="home-services">
