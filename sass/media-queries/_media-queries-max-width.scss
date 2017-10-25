@@ -27,8 +27,14 @@
 			margin-top: 10px;
 			.navbar-nav {
 				padding-bottom: 40px;
+				margin: 7.5px 0;
 				li {
+					margin-left: 0;
 					&.active a {
+						color: $color-text-green;
+						background-color: $color-background-gray !important;
+					}
+					&.active a:hover {
 						color: $color-text-green;
 						background-color: $color-background-gray !important;
 					}
@@ -105,6 +111,19 @@
 		.hours-of-operation {
 			.title {
 				text-align: center;
+			}
+		}
+	}
+}
+@media screen and (max-width: 424px) {
+	.navbar-default {
+		.navbar-header {
+			.navbar-brand {
+				width: 100px !important;
+				padding: 15px 0 0 !important;
+				img {
+					width: 190px;
+				}
 			}
 		}
 	}
