@@ -744,30 +744,6 @@
                 "new_lines": "br"
             },
             {
-                "key": "field_59edcdd69e6a2",
-                "label": "Banner Image",
-                "name": "banner_image",
-                "type": "image",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "return_format": "url",
-                "preview_size": "full",
-                "library": "all",
-                "min_width": "",
-                "min_height": "",
-                "min_size": "",
-                "max_width": "",
-                "max_height": "",
-                "max_size": "",
-                "mime_types": "jpg, png, svg, ico"
-            },
-            {
                 "key": "field_59edcdfc9e6a3",
                 "label": "List of Featured Services in Homepage",
                 "name": "services",
