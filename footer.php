@@ -22,7 +22,7 @@
 		<div class="row">
 			<div class="col-md-offset-1 col-md-10 col-sm-12">
 
-				<div class="col-md-4 col-sm-4 col-xs-12 single background-dark-gray"
+				<div class="col-md-4 col-sm-4 col-xs-12 single background-dark-gray equal-height"
 				     style="background: linear-gradient(rgba(164, 164, 164, 0.80), rgba(164, 164, 164, 0.80)),
 						     url(
 				     <?php
@@ -45,7 +45,7 @@
 						</a>
 					<?php endif; ?>
 				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12 single background-green"
+				<div class="col-md-4 col-sm-4 col-xs-12 single background-green equal-height"
 				     style="background: linear-gradient(rgba(54, 158, 105, 0.80), rgba(54, 158, 105, 0.80)),
 						     url(
 				     <?php
@@ -68,7 +68,7 @@
 						</a>
 					<?php endif; ?>
 				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12 single background-blue"
+				<div class="col-md-4 col-sm-4 col-xs-12 single background-blue equal-height"
 				     style="background: linear-gradient(rgba(95, 154, 224, 0.80), rgba(95, 154, 224, 0.80)),
 						     url(
 				     <?php
