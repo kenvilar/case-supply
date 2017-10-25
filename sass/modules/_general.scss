@@ -3,13 +3,19 @@
 	line-height: inherit;
 }
 .background-dark-gray {
-	background-color: #a4a4a4;
+	background: rgba(164, 164, 164, 0.80);
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
 }
 .background-green {
-	background-color: $color-text-green;
+	background-color: rgba(54, 158, 105, 0.80);
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
 }
 .background-blue {
-	background-color: #5f9ae0;
+	background-color: rgba(95, 154, 224, 0.80);
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
 }
 .color-white {
 	color: $color-text-white;

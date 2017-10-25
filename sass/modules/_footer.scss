@@ -1,7 +1,11 @@
 .get-in-touch {
 	@include paddingtopandbottom;
 	background-color: $color-background-gray;
-	.col-md-4 {
+	.single {
+		a:focus {
+			text-decoration: none;
+			outline: 0;
+		}
 		padding-top: 90px;
 		padding-bottom: 90px;
 		img {
@@ -21,5 +25,10 @@ footer {
 		@include roboto500;
 		color: $color-text-white;
 		font-size: $font-size-small;
+		&:hover, &:focus {
+			color: $color-text-white;
+			text-decoration: none;
+			outline: 0;
+		}
 	}
 }
