@@ -36,11 +36,12 @@ function casesupply_grid_shortcode( $atts, $content = null ) {
 add_shortcode( 'grid', 'casesupply_grid_shortcode' );
 
 // Image Shortcode
-function casesupply_image_shortcode( $atts, $content = null ) {
+function casesupply_image_shortcode( $atts ) {
 	
 	$atts = shortcode_atts(
 		array(
 			'href'   => "",
+			'url'    => 'http://via.placeholder.com/250x250?text=put+image+url',
 			'width'  => 'auto',
 			'height' => 'auto',
 			'alt'    => 'image',
@@ -53,16 +54,20 @@ function casesupply_image_shortcode( $atts, $content = null ) {
 		$atts['href'] = "";
 	}
 	
+	if ( "" == $atts['url'] ) {
+		$atts['url'] = 'http://via.placeholder.com/250x250?text=put+image+url';
+	}
+	
 	if ( "" == $atts['width'] ) {
-		$atts['width'] = "auto";
+		$atts['width'] = 'auto';
 	}
 	
 	if ( "" == $atts['height'] ) {
-		$atts['height'] = "auto";
+		$atts['height'] = 'auto';
 	}
 	
 	if ( "" == $atts['alt'] ) {
-		$atts['alt'] = "image";
+		$atts['alt'] = 'image';
 	}
 	
 	$casesupply_image = '<a';
@@ -75,11 +80,15 @@ function casesupply_image_shortcode( $atts, $content = null ) {
 	
 	$casesupply_image .= '<img ';
 	
-	if ( ( isset( $content ) || "" !== $content ) && is_image_file( $content ) ) {
-		$casesupply_image .= 'src="' . do_shortcode( $content ) . '" ';
-	} else {
+	if ( isset( $atts['url'] ) || "" !== $atts['url'] ) :
+		if ( is_image_file( $atts['url'] ) ) {
+			$casesupply_image .= 'src="' . $atts['url'] . '" ';
+		} else {
+			$casesupply_image .= 'src="http://via.placeholder.com/250x250?text=put+image+url" ';
+		}
+	else :
 		$casesupply_image .= 'src="http://via.placeholder.com/250x250?text=put+image+url" ';
-	}
+	endif;
 	
 	if ( isset( $atts['alt'] ) || "" !== $atts['alt'] ) :
 		$casesupply_image .= 'alt="' . $atts['alt'] . '" ';
