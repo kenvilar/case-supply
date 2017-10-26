@@ -11,7 +11,7 @@
 
 <div class="row">
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<article id="template-container" <?php post_class(); ?>>
 			<header class="entry-header">
 				<?php
 				if ( is_singular() ) :
