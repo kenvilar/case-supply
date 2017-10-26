@@ -154,3 +154,13 @@ require get_template_directory() . '/inc/navigation-menu.php';
  * ACF Pro Plugin
  */
 require get_template_directory() . '/inc/acf-options.php';
+
+/**
+ * Custom Shortcodes
+ */
+require get_template_directory() . '/inc/shortcodes.php';
+
+/**
+ * Other Customization
+ */
+require get_template_directory() . '/inc/custom-other.php';
