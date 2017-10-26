@@ -15,9 +15,13 @@ function is_image_file( $image_file ) {
 			return true;
 		} else if ( exif_imagetype( $image_file ) == IMAGETYPE_ICO ) {
 			return true;
+		} else if ( pathinfo( $image_file, PATHINFO_EXTENSION ) == 'svg' ) {
+			return true;
 		} else {
 			return false;
 		}
+	} else {
+		return;
 	}
 	
 }
