@@ -16,7 +16,7 @@
 }
 //Fonts
 @mixin roboto300() {
-	font-family: 'Roboto Light', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	line-height: normal;
@@ -28,7 +28,7 @@
 	line-height: normal;
 }
 @mixin roboto900() {
-	font-family: 'Roboto Black', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 900;
 	line-height: normal;
