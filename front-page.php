@@ -4,33 +4,14 @@ get_header(); ?>
 
 <section id="banner">
 	<?php
-	/*if ( get_field( 'home_slider' ) ) :
-		the_field( 'home_slider' );
-	else :
-		putRevSlider( "home_slider", "homepage" );
-	endif;*/
 	if ( class_exists( 'RevSliderFront' ) && is_plugin_active( 'revslider/revslider.php' ) ) :
 		if ( get_field( 'home_slider' ) ) :
-			if ( shortcode_exists( 'rev_slider' ) ) :
-				$operations       = new RevSliderOperations();
-				$arrValues        = $operations->getGeneralSettingsValues();
-				$includesGlobally = RevSliderFunctions::getVal( $arrValues, "includes_globally", "on" );
-				$strPutIn         = RevSliderFunctions::getVal( $arrValues, "pages_for_includes" );
-				$isPutIn          = RevSliderOutput::isPutIn( $strPutIn, true );
-				if ( $isPutIn == false ) {
-					echo 'fail1';
-				} else {
-					//putRevSlider( "home_slider", "homepage" );
-					echo 'a';
-				}
-			else :
-				echo 'fail';
-			endif;
-		else :
-			echo 'fail';
-		endif;
+			the_field( 'home_slider' );
+		else : ?>
+			<div style="background: url(<?php echo get_template_directory_uri() . '/assets/images/banner-homepage.png'; ?>) no-repeat;height: 400px;background-size: cover;background-position-y: center;"></div>
+		<?php endif;
 	else :
-		echo 'Please active the revolution slider plugin.';
+		echo '<div style="text-align: center;color: red;">Please install or active the revolution slider plugin.</div>';
 	endif;
 	?>
 </section>
