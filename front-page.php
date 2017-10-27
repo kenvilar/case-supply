@@ -4,10 +4,33 @@ get_header(); ?>
 
 <section id="banner">
 	<?php
-	if ( get_field( 'home_slider' ) ) :
+	/*if ( get_field( 'home_slider' ) ) :
 		the_field( 'home_slider' );
 	else :
 		putRevSlider( "home_slider", "homepage" );
+	endif;*/
+	if ( class_exists( 'RevSliderFront' ) && is_plugin_active( 'revslider/revslider.php' ) ) :
+		if ( get_field( 'home_slider' ) ) :
+			if ( shortcode_exists( 'rev_slider' ) ) :
+				$operations       = new RevSliderOperations();
+				$arrValues        = $operations->getGeneralSettingsValues();
+				$includesGlobally = RevSliderFunctions::getVal( $arrValues, "includes_globally", "on" );
+				$strPutIn         = RevSliderFunctions::getVal( $arrValues, "pages_for_includes" );
+				$isPutIn          = RevSliderOutput::isPutIn( $strPutIn, true );
+				if ( $isPutIn == false ) {
+					echo 'fail1';
+				} else {
+					//putRevSlider( "home_slider", "homepage" );
+					echo 'a';
+				}
+			else :
+				echo 'fail';
+			endif;
+		else :
+			echo 'fail';
+		endif;
+	else :
+		echo 'Please active the revolution slider plugin.';
 	endif;
 	?>
 </section>
