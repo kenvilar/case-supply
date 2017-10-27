@@ -6,7 +6,12 @@ get_header(); ?>
 	<?php
 	if ( class_exists( 'RevSliderFront' ) && is_plugin_active( 'revslider/revslider.php' ) ) :
 		if ( get_field( 'home_slider' ) ) :
-			the_field( 'home_slider' );
+			$home_slider_alias = new RevSliderSlider();
+			if ( $home_slider_alias->isAliasExistsInDB( 'home_slider' ) ) :
+				the_field( 'home_slider' );
+			else : ?>
+				<div style="background: url(<?php echo get_template_directory_uri() . '/assets/images/banner-homepage.png'; ?>) no-repeat;height: 400px;background-size: cover;background-position-y: center;"></div>
+			<?php endif;
 		else : ?>
 			<div style="background: url(<?php echo get_template_directory_uri() . '/assets/images/banner-homepage.png'; ?>) no-repeat;height: 400px;background-size: cover;background-position-y: center;"></div>
 		<?php endif;
