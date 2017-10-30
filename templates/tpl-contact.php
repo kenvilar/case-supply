@@ -112,11 +112,11 @@ get_header(); ?>
 				wp_reset_query(); ?>
 
 				<div class="location col-md-6 col-sm-12 col-xs-12 equal-height hours-of-operation">
-					<div class="col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10 col-xs-offset-1 col-xs-10">
+					<div class="col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10 col-xs-offset-1 col-xs-10 nopaddingleft">
 						<div class="uppercase title">Hours of Operation</div>
 					</div>
-					<div class="col-md-offset-2 col-md-8 nopaddingleft">
-						<div class="col-md-12 col-sm-12 col-xs-12 nopaddingleft">
+					<div class="col-md-offset-2 col-md-10 nopaddingleft">
+						<div class="col-md-offset-0 col-md-12 col-sm-offset-2 col-sm-10 col-xs-12 nopaddingleft">
 							<table>
 								<tr>
 									<td class="days">Monday</td>
