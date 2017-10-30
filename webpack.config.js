@@ -3,7 +3,7 @@ let webpack = require( 'webpack' );
 
 module.exports = {
 	context : __dirname,
-	devtool : debug ? "inline-sourcemap" : null,
+	devtool : debug ? "inline-sourcemap" : false,
 	entry   : "./assets/js/main.js",
 	output  : {
 		path     : __dirname + "/assets/js",
@@ -11,7 +11,7 @@ module.exports = {
 	},
 	plugins : debug ? [] : [
 		new webpack.optimize.DedupePlugin(),
-		new webpack.optimize.OccurenceOrderPlugin(),
+		new webpack.optimize.OccurrenceOrderPlugin(),
 		new webpack.optimize.UglifyJsPlugin( { mangle : false, sourcemap : false } ),
 	],
 };
