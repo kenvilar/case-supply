@@ -28,7 +28,7 @@ get_header(); ?>
 								<h4><?php echo $location_name; ?></h4>
 								<p>
 									<?php echo $address; ?><br>
-									<?php echo ( $telephone ) ? 't ' . $telephone . '&nbsp;&nbsp;&nbsp;' : ''; ?><?php if ( $fax ) : ?>f <?php echo $fax; ?><?php endif; ?>
+									<?php echo ( $telephone ) ? 'T ' . $telephone . '&nbsp;&nbsp;&nbsp;' : ''; ?><?php if ( $fax ) : ?>F <?php echo $fax; ?><?php endif; ?>
 								</p>
 							</div>
 						</div>
@@ -46,7 +46,7 @@ get_header(); ?>
 							<h4>Syracuse Showroom</h4>
 							<p>
 								601 West Fayette Street Syracuse, NY 13204 <br>
-								t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.471.0597
+								T 315.425.1818&nbsp;&nbsp;&nbsp;F 315.471.0597
 							</p>
 						</div>
 					</div>
@@ -60,7 +60,7 @@ get_header(); ?>
 							<h4>Amsterdam Showroom</h4>
 							<p>
 								4184 State Highway 30 Amsterdam, NY 12010-6202 <br>
-								t 518.883.7218&nbsp;&nbsp;&nbsp;f 518.883.7225
+								T 518.883.7218&nbsp;&nbsp;&nbsp;F 518.883.7225
 							</p>
 						</div>
 					</div>
@@ -74,7 +74,7 @@ get_header(); ?>
 							<h4>Auburn Showroom</h4>
 							<p>
 								360 Grant Avenue, Suite 102 Auburn, NY 13021 <br>
-								t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.471.0597
+								T 315.425.1818&nbsp;&nbsp;&nbsp;F 315.471.0597
 							</p>
 						</div>
 					</div>
@@ -88,7 +88,7 @@ get_header(); ?>
 							<h4>The Warehouse</h4>
 							<p>
 								150 Ainsley Drive Syracuse, NY 13210 <br>
-								t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.424.0626
+								T 315.425.1818&nbsp;&nbsp;&nbsp;F 315.424.0626
 							</p>
 						</div>
 					</div>
@@ -102,7 +102,7 @@ get_header(); ?>
 							<h4>Rome Showroom</h4>
 							<p>
 								293-295 East Dominick Street Rome, NY 13440 <br>
-								t 315.425.1818&nbsp;&nbsp;&nbsp;f 315.471.0597
+								T 315.425.1818&nbsp;&nbsp;&nbsp;F 315.471.0597
 							</p>
 						</div>
 					</div>
@@ -114,7 +114,7 @@ get_header(); ?>
 	<div class="container hours-of-operation">
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8">
-				<div class="title">Hours of Operation</div>
+				<div class="uppercase title">Hours of Operation</div>
 			</div>
 			<div class="col-md-offset-2 col-md-8 nopaddingleft">
 				<div class="col-md-7 col-sm-12 col-xs-12">
