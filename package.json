@@ -14,5 +14,8 @@
   ],
   "author": "Ken V",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/kenvilar/casesupply#readme"
+  "homepage": "https://bitbucket.org/kenvilar/casesupply#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
 }
