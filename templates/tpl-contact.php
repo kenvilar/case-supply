@@ -117,36 +117,49 @@ get_header(); ?>
 					</div>
 					<div class="col-md-offset-2 col-md-10 nopaddingleft">
 						<div class="col-md-offset-0 col-md-12 col-sm-offset-2 col-sm-10 col-xs-12 nopaddingleft">
-							<table>
-								<tr>
-									<td class="days">Monday</td>
-									<td class="time">9:00 AM - 5:00 PM</td>
-								</tr>
-								<tr>
-									<td class="days">Tuesday</td>
-									<td class="time">9:00 AM - 5:00 PM</td>
-								</tr>
-								<tr>
-									<td class="days">Wednesday</td>
-									<td class="time">9:00 AM - 5:00 PM</td>
-								</tr>
-								<tr>
-									<td class="days">Thursday</td>
-									<td class="time">9:00 AM - 5:00 PM</td>
-								</tr>
-								<tr>
-									<td class="days">Friday</td>
-									<td class="time">9:00 AM - 5:00 PM</td>
-								</tr>
-								<tr>
-									<td class="days">Saturday</td>
-									<td class="time">9:00 AM - 1:00 PM</td>
-								</tr>
-								<tr>
-									<td class="days">Sunday</td>
-									<td class="time">CLOSED</td>
-								</tr>
-							</table>
+							<?php if ( have_rows( 'hours_of_operations' ) ) : ?>
+								<table>
+									<?php while ( have_rows( 'hours_of_operations' ) ) : the_row();
+										$day  = get_sub_field( 'day' );
+										$time = get_sub_field( 'time' ); ?>
+										<tr>
+											<td class="days"><?php echo $day; ?></td>
+											<td class="time"><?php echo $time; ?></td>
+										</tr>
+									<?php endwhile; ?>
+								</table>
+							<?php else : ?>
+								<table>
+									<tr>
+										<td class="days">Monday</td>
+										<td class="time">9:00 AM - 5:00 PM</td>
+									</tr>
+									<tr>
+										<td class="days">Tuesday</td>
+										<td class="time">9:00 AM - 5:00 PM</td>
+									</tr>
+									<tr>
+										<td class="days">Wednesday</td>
+										<td class="time">9:00 AM - 5:00 PM</td>
+									</tr>
+									<tr>
+										<td class="days">Thursday</td>
+										<td class="time">9:00 AM - 5:00 PM</td>
+									</tr>
+									<tr>
+										<td class="days">Friday</td>
+										<td class="time">9:00 AM - 5:00 PM</td>
+									</tr>
+									<tr>
+										<td class="days">Saturday</td>
+										<td class="time">9:00 AM - 1:00 PM</td>
+									</tr>
+									<tr>
+										<td class="days">Sunday</td>
+										<td class="time">CLOSED</td>
+									</tr>
+								</table>
+							<?php endif; ?>
 						</div>
 						<br>
 						<div class="col-md-12 col-sm-12 col-xs-12 nopaddingleft">
