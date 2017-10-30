@@ -8,13 +8,13 @@ get_header(); ?>
 	<div class="container locations">
 		<div class="row">
 			<div class="col-md-offset-1 col-md-10 col-sm-12 col-xs-12">
-				<?php if ( have_rows( 'list_of_locations_1st_column' ) ) : ?>
+				<?php if ( have_rows( 'list_of_locations' ) ) : ?>
 
 					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height address">
 						<div class="col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10 col-xs-12">
 							<div class="uppercase title">Our Showrooms</div>
 						</div>
-						<?php while ( have_rows( 'list_of_locations_1st_column' ) ) : the_row();
+						<?php while ( have_rows( 'list_of_locations' ) ) : the_row();
 							$location_name = get_sub_field( 'location_name' );
 							$address       = get_sub_field( 'address' );
 							$telephone     = get_sub_field( 'telephone' );
