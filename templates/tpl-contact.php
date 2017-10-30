@@ -80,26 +80,13 @@ get_header(); ?>
 							     alt="location">
 						</div>
 						<div class="col-md-10 col-sm-10 col-xs-10 address">
-							<h4>Amsterdam Showroom</h4>
-							<p>
-								4184 State Highway 30 Amsterdam, NY 12010-6202 <br>
-								T 518.883.7218&nbsp;&nbsp;&nbsp;F 518.883.7225
-							</p>
-						</div>
-						<!--3rd-->
-						<div class="col-md-2 col-sm-2 col-xs-1">
-							<img class="pull-right"
-							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-							     alt="location">
-						</div>
-						<div class="col-md-10 col-sm-10 col-xs-10 address">
 							<h4>Auburn Showroom</h4>
 							<p>
 								360 Grant Avenue, Suite 102 Auburn, NY 13021 <br>
 								T 315.425.1818&nbsp;&nbsp;&nbsp;F 315.471.0597
 							</p>
 						</div>
-						<!--4th-->
+						<!--3rd-->
 						<div class="col-md-2 col-sm-2 col-xs-1">
 							<img class="pull-right"
 							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
@@ -110,6 +97,19 @@ get_header(); ?>
 							<p>
 								293-295 East Dominick Street Rome, NY 13440 <br>
 								T 315.425.1818&nbsp;&nbsp;&nbsp;F 315.471.0597
+							</p>
+						</div>
+						<!--4th-->
+						<div class="col-md-2 col-sm-2 col-xs-1">
+							<img class="pull-right"
+							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+							     alt="location">
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10 address">
+							<h4>Amsterdam Showroom</h4>
+							<p>
+								4184 State Highway 30 Amsterdam, NY 12010-6202 <br>
+								T 518.883.7218&nbsp;&nbsp;&nbsp;F 518.883.7225
 							</p>
 						</div>
 					</div>
