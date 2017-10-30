@@ -138,6 +138,12 @@
 			h4 {
 				@include roboto900;
 			}
+			.address {
+				padding: 0;
+				p {
+					letter-spacing: 0;
+				}
+			}
 		}
 	}
 	.hours-of-operation {
