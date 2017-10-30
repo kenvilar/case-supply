@@ -11,14 +11,14 @@ get_header(); ?>
 				<div class="uppercase title">Our Showrooms</div>
 			</div>
 			<div class="col-md-offset-1 col-md-10 col-sm-12 col-xs-12">
-				<?php if ( have_rows( 'list_of_locations' ) ) : ?>
-					<?php while ( have_rows( 'list_of_locations' ) ) : the_row();
-						$location_name = get_sub_field( 'location_name' );
-						$address       = get_sub_field( 'address' );
-						$telephone     = get_sub_field( 'telephone' );
-						$fax           = get_sub_field( 'fax' ); ?>
+				<?php if ( have_rows( 'list_of_locations_1st_column' ) || have_rows( 'list_of_locations_2nd_column' ) ) : ?>
+					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
+						<?php while ( have_rows( 'list_of_locations_1st_column' ) ) : the_row();
+							$location_name = get_sub_field( 'location_name' );
+							$address       = get_sub_field( 'address' );
+							$telephone     = get_sub_field( 'telephone' );
+							$fax           = get_sub_field( 'fax' ); ?>
 
-						<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
 							<div class="col-md-2 col-sm-2 col-xs-1">
 								<img class="pull-right"
 								     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
@@ -31,12 +31,36 @@ get_header(); ?>
 									<?php echo ( $telephone ) ? 'T ' . $telephone . '&nbsp;&nbsp;&nbsp;' : ''; ?><?php if ( $fax ) : ?>F <?php echo $fax; ?><?php endif; ?>
 								</p>
 							</div>
-						</div>
-					
-					<?php endwhile;
-					wp_reset_postdata(); ?>
+						
+						<?php endwhile;
+						wp_reset_postdata(); ?>
+					</div>
+					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
+						<?php while ( have_rows( 'list_of_locations_2nd_column' ) ) : the_row();
+							$location_name = get_sub_field( 'location_name' );
+							$address       = get_sub_field( 'address' );
+							$telephone     = get_sub_field( 'telephone' );
+							$fax           = get_sub_field( 'fax' ); ?>
+
+							<div class="col-md-2 col-sm-2 col-xs-1">
+								<img class="pull-right"
+								     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+								     alt="location">
+							</div>
+							<div class="col-md-10 col-sm-10 col-xs-10 address">
+								<h4><?php echo $location_name; ?></h4>
+								<p>
+									<?php echo $address; ?><br>
+									<?php echo ( $telephone ) ? 'T ' . $telephone . '&nbsp;&nbsp;&nbsp;' : ''; ?><?php if ( $fax ) : ?>F <?php echo $fax; ?><?php endif; ?>
+								</p>
+							</div>
+						
+						<?php endwhile;
+						wp_reset_postdata(); ?>
+					</div>
 				<?php else : ?>
 					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
+						<!--1st-->
 						<div class="col-md-2 col-sm-2 col-xs-1">
 							<img class="pull-right"
 							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
@@ -49,8 +73,7 @@ get_header(); ?>
 								T 315.425.1818&nbsp;&nbsp;&nbsp;F 315.471.0597
 							</p>
 						</div>
-					</div>
-					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
+						<!--2nd-->
 						<div class="col-md-2 col-sm-2 col-xs-1">
 							<img class="pull-right"
 							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
@@ -63,8 +86,7 @@ get_header(); ?>
 								T 518.883.7218&nbsp;&nbsp;&nbsp;F 518.883.7225
 							</p>
 						</div>
-					</div>
-					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
+						<!--3rd-->
 						<div class="col-md-2 col-sm-2 col-xs-1">
 							<img class="pull-right"
 							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
@@ -74,6 +96,19 @@ get_header(); ?>
 							<h4>Auburn Showroom</h4>
 							<p>
 								360 Grant Avenue, Suite 102 Auburn, NY 13021 <br>
+								T 315.425.1818&nbsp;&nbsp;&nbsp;F 315.471.0597
+							</p>
+						</div>
+						<!--4th-->
+						<div class="col-md-2 col-sm-2 col-xs-1">
+							<img class="pull-right"
+							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+							     alt="location">
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10 address">
+							<h4>Rome Showroom</h4>
+							<p>
+								293-295 East Dominick Street Rome, NY 13440 <br>
 								T 315.425.1818&nbsp;&nbsp;&nbsp;F 315.471.0597
 							</p>
 						</div>
@@ -89,20 +124,6 @@ get_header(); ?>
 							<p>
 								150 Ainsley Drive Syracuse, NY 13210 <br>
 								T 315.425.1818&nbsp;&nbsp;&nbsp;F 315.424.0626
-							</p>
-						</div>
-					</div>
-					<div class="location col-md-6 col-sm-12 col-xs-12 equal-height">
-						<div class="col-md-2 col-sm-2 col-xs-1">
-							<img class="pull-right"
-							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-							     alt="location">
-						</div>
-						<div class="col-md-10 col-sm-10 col-xs-10 address">
-							<h4>Rome Showroom</h4>
-							<p>
-								293-295 East Dominick Street Rome, NY 13440 <br>
-								T 315.425.1818&nbsp;&nbsp;&nbsp;F 315.471.0597
 							</p>
 						</div>
 					</div>
