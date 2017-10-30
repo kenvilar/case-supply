@@ -151,10 +151,15 @@
 		.days {
 			@include roboto900;
 			line-height: 20px;
+			padding-right: 35px;
 		}
 		.time {
 			@include roboto300;
 			line-height: 20px;
+			letter-spacing: 0;
+		}
+		table {
+			margin-bottom: 30px;
 		}
 	}
 }
