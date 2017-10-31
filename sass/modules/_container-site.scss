@@ -27,6 +27,7 @@
 	background-color: $color-background-green;
 	color: $color-text-white;
 	@include paddingtopandbottom;
+	padding-top: 10px;
 	h1 {
 		@include roboto900;
 	}

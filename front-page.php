@@ -66,9 +66,9 @@ get_header(); ?>
 <section id="home-our-story">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-12">
+			<div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-sm-12">
 				<h1 class="text-center">OUR STORY</h1>
-				<p class="text-justify">
+				<p class="text-center">
 					<?php
 					if ( get_field( 'our_story' ) ) :
 						the_field( 'our_story' );
