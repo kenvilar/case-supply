@@ -175,11 +175,6 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-	<div class="container hours-of-operation">
-		<div class="row">
-			<!--//-->
-		</div>
-	</div>
 </section>
 
 <div id="map"></div>
