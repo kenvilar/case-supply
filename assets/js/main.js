@@ -38,7 +38,7 @@
 		} );
 
 		// Animation on Scroll (Get In Touch section at footer)
-		$( '.get-in-touch .background-dark-gray' ).addClass( "visible" ).viewportChecker( {
+		/*$( '.get-in-touch .background-dark-gray' ).addClass( "visible" ).viewportChecker( {
 			classToAdd : 'animated bounceInRight',
 			offset     : 10
 		} );
@@ -49,7 +49,7 @@
 		$( '.get-in-touch .background-blue' ).addClass( "visible" ).viewportChecker( {
 			classToAdd : 'animated bounceInLeft',
 			offset     : 10
-		} );
+		} );*/
 
 	} );
 
