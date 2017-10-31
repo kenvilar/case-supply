@@ -34,4 +34,63 @@ footer {
 			outline: 0;
 		}
 	}
+	.social-icons {
+		text-align: center;
+		padding-top: 8px;
+		a {
+			height: 30px;
+			width: 30px;
+			line-height: 30px;
+			font-size: 14px;
+			border-radius: 100%;
+			display: inline-block;
+			color: #535353;
+			text-align: center;
+			margin-right: 8px;
+			background: rgba(0, 0, 0, 0.08);
+			transition: color .3s, background-color .3s, border-color .3s;
+			overflow: hidden;
+			position: relative;
+			&:hover {
+				color: #fff !important;
+				border-color: transparent;
+			}
+		}
+		.icon-facebook:hover {
+			background: #3b5998 !important;
+		}
+		.icon-google:hover {
+			background: #dd4b39 !important;
+		}
+		.icon-google-plus:hover {
+			background: #dd4b39 !important;
+		}
+		.icon-houzz:hover {
+			background: #7ac142 !important;
+		}
+		.icon-instagram:hover {
+			background: #125688 !important;
+		}
+		.icon-linkedin:hover {
+			background: #007bb5 !important;
+		}
+		.icon-medium:hover {
+			background: #232323 !important;
+		}
+		.icon-paypal:hover {
+			background: #003087 !important;
+		}
+		.icon-pinterest:hover {
+			background: #cb2027 !important;
+		}
+		.icon-twitter:hover {
+			background: #00aced !important;
+		}
+		.icon-yelp:hover {
+			background: #cd201f !important;
+		}
+		.icon-youtube:hover {
+			background: #bb0000 !important;
+		}
+	}
 }

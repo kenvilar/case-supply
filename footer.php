@@ -105,6 +105,39 @@
 					<?php printf( esc_html__( '&copy; %s, INC. ALL RIGHTS RESERVED', 'casesupply' ), 'CASE SUPPLY' ); ?>
 				</a>
 			</div>
+			<div class="social-icons social-icons-small social-icons-circle">
+				
+				<?php if ( get_field( 'facebook_url', 'option' ) ) : ?>
+					<a href="<?php the_field( 'facebook_url', 'option' ); ?>" class="social icon-facebook">
+						<i class="fa fa-facebook icon-primary"></i>
+					</a>
+				<?php endif; ?>
+				
+				<?php if ( get_field( 'instagram_url', 'option' ) ) : ?>
+					<a href="<?php the_field( 'instagram_url', 'option' ); ?>" class="social icon-instagram">
+						<i class="fa fa-instagram icon-primary"></i>
+					</a>
+				<?php endif; ?>
+				
+				<?php if ( get_field( 'linkedin_url', 'option' ) ) : ?>
+					<a href="<?php the_field( 'linkedin_url', 'option' ); ?>" class="social icon-linkedin">
+						<i class="fa fa-linkedin icon-primary"></i>
+					</a>
+				<?php endif; ?>
+				
+				<?php if ( get_field( 'houzz_url', 'option' ) ) : ?>
+					<a href="<?php the_field( 'houzz_url', 'option' ); ?>" class="social icon-houzz">
+						<i class="fa fa-houzz icon-primary"></i>
+					</a>
+				<?php endif; ?>
+				
+				<?php if ( get_field( 'pinterest_url', 'option' ) ) : ?>
+					<a href="<?php the_field( 'pinterest_url', 'option' ); ?>" class="social icon-pinterest">
+						<i class="fa fa-pinterest icon-primary"></i>
+					</a>
+				<?php endif; ?>
+
+			</div>
 		</div>
 	</div>
 </footer>
