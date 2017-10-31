@@ -40,10 +40,8 @@ get_header(); ?>
 							     alt="icon">
 						</div>
 						<div class="col-md-10">
-							<h4 class="service-title">In-Home Design</h4>
-							<p>Our certified designers will come to you in the comfort of your home to design the
-								kitchen or
-								bath of your dreams.</p>
+							<h4 class="service-title">Design</h4>
+							<p>Our experienced designers will create the kitchen and bath of your dreams.</p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 equal-height">
@@ -54,7 +52,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-10">
 							<h4 class="service-title">3D Perspective Drawings</h4>
-							<p>Case Supply’s advanced software system provides you with a realistic drawing of your
+							<p>Case Supply’s advanced software system provides you with realistic drawings of your
 								space.</p>
 						</div>
 					</div>
@@ -66,7 +64,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-10">
 							<h4 class="service-title">Installation</h4>
-							<p>Case Supply’s professional contractors will complete your project to perfection.</p>
+							<p>Case Supply’s professional installers will help make your project come to life.</p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 equal-height">
@@ -77,9 +75,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-10">
 							<h4 class="service-title">Field Measure</h4>
-							<p>Prior to your order placement, Case Supply will measure your project to ensure your
-								products
-								are ordered correctly.</p>
+							<p>Prior to ordering, we will measure your space to ensure accuracy.</p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 equal-height">
@@ -89,9 +85,8 @@ get_header(); ?>
 							     alt="icon">
 						</div>
 						<div class="col-md-10">
-							<h4 class="service-title">Job-Site Delivery</h4>
-							<p>Our experts will make sure your products are delivered safely and on time to your
-								doorstep.</p>
+							<h4 class="service-title">Delivery</h4>
+							<p>Our team will asure your products are delivered safely and on time.</p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 equal-height">
@@ -102,7 +97,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-10">
 							<h4 class="service-title">Financing</h4>
-							<p>Select from a number of payment options to ensure your project’s affordability.</p>
+							<p>Case Supply is committed to ensuring your project is affordability.</p>
 						</div>
 					</div>
 				<?php endif;
