@@ -50,13 +50,9 @@
 			background-repeat: no-repeat;
 			position: relative;
 			margin-top: 10px;
-			-webkit-transition: all 900ms linear;
-			-moz-transition: all 900ms linear;
-			-o-transition: all 900ms linear;
-			-ms-transition: all 900ms linear;
-			transition: all 900ms linear;
 			&:hover, &:hover h4 {
 				cursor: pointer;
+				opacity: 0.5;
 			}
 			.product-title {
 				top: 0;
