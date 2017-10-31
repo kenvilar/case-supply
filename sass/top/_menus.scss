@@ -1,12 +1,14 @@
 .navbar-default {
 	margin-bottom: 0;
-	height: 95px;
+	height: 110px;
 	background-color: $color-background-gray;
+	border: 1px solid #ccc8c8;
 	.navbar-toggle-close {
 		display: none;
 	}
 	.navbar-brand {
 		padding: 1px 10px 0;
+		height: auto;
 		img {
 			width: 300px;
 		}
@@ -20,7 +22,7 @@
 	.navbar-collapse {
 		padding-right: 0;
 		.navbar-nav {
-			padding-top: 22px;
+			padding-top: 40px;
 			li {
 				margin-left: 10px;
 				&.active a, &.active a:hover {
