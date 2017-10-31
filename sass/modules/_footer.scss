@@ -2,6 +2,9 @@
 	@include paddingtopandbottom;
 	background-color: $color-background-gray;
 	.single {
+		&:nth-child(2) {
+			background-position-y: 80% !important;
+		}
 		a:focus {
 			text-decoration: none;
 			outline: 0;
