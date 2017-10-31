@@ -54,7 +54,7 @@ get_header(); ?>
 					<div class="col-md-12">
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 						     title="Click For More Details"
-						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/Seagrove_Kirkstead_B_cambriastyle_001_14_1260x960.png'; ?>);background-position-y: 40%;">
+						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/products/Bathroom.jpg'; ?>);background-position-y: 55%;">
 						</div>
 						<div class="single-product-content">
 							<h2 class="product-title text-center">BATH</h2>
@@ -63,7 +63,7 @@ get_header(); ?>
 					<div class="col-md-12">
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 						     title="Click For More Details"
-						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/brittanicca_t_khachibrandonbarre_001_16_1260x960.png'; ?>);background-position-y: 85%;">
+						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/products/Countertop.jpg'; ?>);background-position-y: 85%;">
 						</div>
 						<div class="single-product-content">
 							<h2 class="product-title text-center">COUNTERTOPS</h2>
@@ -72,7 +72,7 @@ get_header(); ?>
 					<div class="col-md-12">
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 						     title="Click For More Details"
-						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/stove.png'; ?>);background-position-y: 15%;">
+						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/products/Appliance.jpg'; ?>);background-position-y: 60%;">
 						</div>
 						<div class="single-product-content">
 							<h2 class="product-title text-center">APPLIANCES</h2>
