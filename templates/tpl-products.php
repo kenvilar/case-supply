@@ -11,13 +11,7 @@ get_header(); ?>
 				<?php
 				if ( get_field( 'page_content' ) ) :
 					the_field( 'page_content' );
-				else : ?>
-					Case Supply is pleased to announce that we have formed a priviledged partnership with the General
-					Electric Co. Not only is Case Supply the exclusive Monogram distributor and dealer in upstate New York,
-					but we also sell Profile, Hotpoint, and GE brand-name appliances.
-					<br><br>
-					Case Supply is also a New York State Energy Star dealer.
-				<?php endif; ?>
+				endif; ?>
 			</div>
 		</div>
 	</div>
