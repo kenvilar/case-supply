@@ -63,7 +63,9 @@ get_header(); ?>
 	</div>
 </section>
 
-<section id="home-our-story">
+<section id="home-our-story"
+         style="background: linear-gradient(rgba(54, 158, 105, 0.88), rgba(54, 158, 105, 0.88)),
+		         url(<?php echo ( get_field( 'our_story_image' ) ) ? the_field( 'our_story_image' ) : get_template_directory_uri() . '/assets/images/Annicca_2048x1536.jpg'; ?>);">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-sm-12">
