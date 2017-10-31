@@ -33,9 +33,9 @@ get_header(); ?>
 							     else :
 								     echo get_template_directory_uri() . '/assets/images/original/clareanne-residential-1500x998.png';
 							     endif; ?>);background-position-y: center;">
-								<h4 class="product-title"><?php echo $title; ?></h4>
 							</div>
 							<div class="single-product-content">
+								<h2 class="product-title text-center"><?php echo $title; ?></h2>
 								<?php echo $content; ?>
 							</div>
 						</div>
@@ -46,9 +46,9 @@ get_header(); ?>
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 						     title="Click For More Details"
 						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/clareanne-residential-1500x998.png'; ?>);background-position-y: center;">
-							<h4 class="product-title">KITCHEN</h4>
 						</div>
 						<div class="single-product-content">
+							<h2 class="product-title text-center">KITCHEN</h2>
 							For most people, renovating a kitchen is a once-in-a-lifetime experience. Case Supply
 							recognizes
 							the importance of your project, and understands the details surrounding each decision. That
@@ -69,9 +69,9 @@ get_header(); ?>
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 						     title="Click For More Details"
 						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/Seagrove_Kirkstead_B_cambriastyle_001_14_1260x960.png'; ?>);background-position-y: 40%;">
-							<h4 class="product-title">BATH</h4>
 						</div>
 						<div class="single-product-content">
+							<h2 class="product-title text-center">BATH</h2>
 							Today’s bathroom serves as an oasis from everyday stress. At Case Supply, we take luxury
 							bathing
 							to a new level. Relaxing whirlpools, steam showers, and innovative bodyspray systems have
@@ -90,34 +90,34 @@ get_header(); ?>
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 						     title="Click For More Details"
 						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/brittanicca_t_khachibrandonbarre_001_16_1260x960.png'; ?>);background-position-y: 85%;">
-							<h4 class="product-title">COUNTERTOPS</h4>
 						</div>
 						<div class="single-product-content">
+							<h2 class="product-title text-center">COUNTERTOPS</h2>
 							Case Supply proudly offers a variety of granite, solid-surface, quartz, and laminate
 							countertop
 							products.
 							<br><br>
 							<div class="col-md-3 col-sm-6 col-xs-6 equal-height"><img
 										src="<?php echo get_template_directory_uri() . '/assets/images/corian-design.png'; ?>"
-										alt="image"></div>
+										alt="image" style="width:auto!important;height:auto!important;"></div>
 							<div class="col-md-3 col-sm-6 col-xs-6 equal-height"><img
 										src="<?php echo get_template_directory_uri() . '/assets/images/hartson-kennedy.png'; ?>"
-										alt="image"></div>
+										alt="image" style="width:auto!important;height:auto!important;"></div>
 							<div class="col-md-3 col-sm-6 col-xs-6 equal-height"><img
 										src="<?php echo get_template_directory_uri() . '/assets/images/cambria.png'; ?>"
-										alt="image"></div>
+										alt="image" style="width:auto!important;height:auto!important;"></div>
 							<div class="col-md-3 col-sm-6 col-xs-6 equal-height"><img
 										src="<?php echo get_template_directory_uri() . '/assets/images/busch.png'; ?>"
-										alt="image"></div>
+										alt="image" style="width:auto!important;height:auto!important;"></div>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 						     title="Click For More Details"
 						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/stove.png'; ?>);background-position-y: 15%;">
-							<h4 class="product-title">APPLIANCES</h4>
 						</div>
 						<div class="single-product-content">
+							<h2 class="product-title text-center">APPLIANCES</h2>
 							VISIT OUR UPDATED SHOWROOM <br>
 							Check out our newly remodeled showroom for the latest trends in Kitchen & Bath styles!
 						</div>
