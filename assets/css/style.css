@@ -2181,11 +2181,9 @@ form.search-form .search-submit:hover {
 .our-team .single-team {
   text-align: center;
 }
-.our-team .single-team img:hover {
-  transition: all 0.50s ease-out 0ms;
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  transform: scale(1.1);
+.our-team .single-team img {
+  width: 270px;
+  height: 435px;
 }
 .our-team .single-team p {
   font-family: 'Roboto', sans-serif;
