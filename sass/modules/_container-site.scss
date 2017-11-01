@@ -88,6 +88,7 @@
 		}
 		p {
 			@include roboto900;
+			line-height: 16px;
 			font-size: $font-size-h4;
 			padding-top: 10px;
 			span {
