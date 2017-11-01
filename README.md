@@ -17,4 +17,8 @@ Getting Started
 -------------
 * Run SASS using this command `sass sass/style.scss assets/css/style.css` or 
 * Run and watch SASS using this command `sass --watch sass/style.scss:assets/css/style.css` or
-* Run, watch, and minify the css files using this command `sass --watch sass/style.scss:assets/css/style.css --watch assets/css/style.css:assets/css/style.min.css --style compressed --scss`
+* Run, watch, and minify the css files using these commands 
+
+`sass --watch sass/style.scss:assets/css/style.css --style expanded`
+and
+`sass --watch assets/css/style.css:assets/css/style.min.css --style compressed --scss`
