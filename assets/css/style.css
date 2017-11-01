@@ -2259,11 +2259,12 @@ form.search-form .search-submit:hover {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  line-height: 20px;
+  line-height: 30px;
   letter-spacing: 0;
 }
 .contact .hours-of-operation table {
   margin-bottom: 30px;
+  width: 94%;
 }
 
 #map {

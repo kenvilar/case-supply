@@ -162,10 +162,11 @@ get_header(); ?>
 							<?php endif; ?>
 						</div>
 						<br>
-						<div class="col-md-12 col-sm-12 col-xs-12 nopaddingleft">
-							<?php if ( get_field( 'additional_notes_for_hour_of_operations' ) ) :
-								the_field( 'additional_notes_for_hour_of_operations' );
-							else : ?>
+						<div class="col-md-12 col-sm-12 col-xs-12 nopaddingleft"
+						     style="font-size: 20px;line-height: 25px;">
+							<?php if ( get_field( 'additional_notes_for_hour_of_operations' ) ) : ?>
+								<?php the_field( 'additional_notes_for_hour_of_operations' ); ?>
+							<?php else : ?>
 								*We are open on Saturday's from Labor Day to Memorial Day ONLY. We are CLOSED on Saturday's during
 								the summer months.
 							<?php endif; ?>

@@ -146,11 +146,12 @@
 		}
 		.time {
 			@include roboto300;
-			line-height: 20px;
+			line-height: 30px;
 			letter-spacing: 0;
 		}
 		table {
 			margin-bottom: 30px;
+			width: 94%;
 		}
 	}
 }
