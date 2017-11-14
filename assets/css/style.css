@@ -2131,6 +2131,9 @@ form.search-form .search-submit:hover {
   line-height: normal;
 }
 
+.services {
+  padding-bottom: 0 !important;
+}
 .services .service-title {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -2202,6 +2205,9 @@ form.search-form .search-submit:hover {
   font-size: 14px;
 }
 
+.faq {
+  padding-bottom: 0 !important;
+}
 .faq .single-faq {
   margin-bottom: 20px;
 }
