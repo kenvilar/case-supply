@@ -2153,7 +2153,7 @@ form.search-form .search-submit:hover {
   position: relative;
   margin-top: 10px;
 }
-.products .products-box .single-product:hover, .products .products-box .single-product:hover h4 {
+.products .products-box .single-product:hover, .products .products-box .single-product:hover .single-product-content h2 {
   cursor: pointer;
   opacity: 0.5;
 }
