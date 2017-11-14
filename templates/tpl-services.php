@@ -86,7 +86,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-10">
 							<h4 class="service-title">Delivery</h4>
-							<p>Our team will asure your products are delivered safely and on time.</p>
+							<p>Our team will assure your products are delivered safely and on time.</p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 equal-height">
@@ -97,7 +97,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-10">
 							<h4 class="service-title">Financing</h4>
-							<p>Case Supply is committed to ensuring your project is affordability.</p>
+							<p>Case Supply is committed to ensuring your project's affordability.</p>
 						</div>
 					</div>
 				<?php endif;
