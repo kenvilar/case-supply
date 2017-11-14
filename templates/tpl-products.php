@@ -75,7 +75,7 @@ get_header(); ?>
 						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/products/Appliance.jpg'; ?>);background-position-y: 60%;">
 						</div>
 						<div class="single-product-content">
-							<h2 class="product-title text-center">APPLIANCES</h2>
+							<h2 class="product-title text-center">MISCELLANEOUS</h2>
 						</div>
 					</div>
 				<?php endif;
