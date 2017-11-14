@@ -16,7 +16,8 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="icon" href="<?php echo get_template_directory_uri() . '/assets/images/favicon.png'; ?>" sizes="any" type="image/png">
+	<link rel="icon" href="<?php echo get_template_directory_uri() . '/assets/images/favicon.png'; ?>" sizes="any"
+	      type="image/png">
 	
 	<?php wp_head(); ?>
 	
@@ -30,15 +31,10 @@
 
 <body <?php body_class(); ?>>
 
-<div class="preloader">
-	<div class="pl-line pl-line-1"></div>
-	<div class="pl-line pl-line-2"></div>
-	<div class="pl-line pl-line-3"></div>
-	<div class="pl-line pl-line-4"></div>
-</div>
-
 <div id="main-container">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'casesupply' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content">
+		<?php esc_html_e( 'Skip to content', 'casesupply' ); ?>
+	</a>
 	
 	<?php require 'layouts/navigation.php'; ?>
 	
