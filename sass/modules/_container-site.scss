@@ -53,7 +53,22 @@
 			margin-top: 10px;
 			&:hover, &:hover .single-product-content h2 {
 				cursor: pointer;
-				opacity: 0.5;
+				opacity: 0.6;
+				filter: alpha(opacity=60);
+			}
+			&:hover .product-title-show-when-hover-image {
+				visibility: visible;
+			}
+			.product-title-show-when-hover-image {
+				visibility: hidden;
+				display: block;
+				@include roboto300;
+				font-size: 25px;
+				color: $color-text-black;
+				font-weight: bold;
+				text-align: center;
+				position: relative;
+				text-transform: uppercase;
 			}
 		}
 		.single-product-close {
@@ -69,7 +84,7 @@
 			display: none;
 			.product-title {
 				color: $color-text-green;
-				@include roboto500;
+				@include roboto900;
 				text-transform: uppercase;
 			}
 		}

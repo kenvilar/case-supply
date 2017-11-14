@@ -33,6 +33,7 @@ get_header(); ?>
 							     else :
 								     echo get_template_directory_uri() . '/assets/images/original/clareanne-residential-1500x998.png';
 							     endif; ?>);background-position-y: center;">
+								<span class="product-title-show-when-hover-image"><?php echo $title; ?></span>
 							</div>
 							<div class="single-product-content">
 								<h2 class="product-title text-center"><?php echo $title; ?></h2>

@@ -2155,7 +2155,25 @@ form.search-form .search-submit:hover {
 }
 .products .products-box .single-product:hover, .products .products-box .single-product:hover .single-product-content h2 {
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.products .products-box .single-product:hover .product-title-show-when-hover-image {
+  visibility: visible;
+}
+.products .products-box .single-product .product-title-show-when-hover-image {
+  visibility: hidden;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
 }
 .products .products-box .single-product-close {
   background-image: none;
@@ -2173,7 +2191,7 @@ form.search-form .search-submit:hover {
   color: #369e69;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
 }
