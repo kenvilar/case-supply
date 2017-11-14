@@ -37,10 +37,6 @@
 			$( '.preloader' ).fadeOut( 1500 );
 		} );
 
-		//
-		let newWnd = window.open();
-		newWnd.opener = null;
-
 	} );
 
 })( jQuery );
