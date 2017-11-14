@@ -33,12 +33,13 @@
 				     endif; ?>);">
 					
 					<?php if ( get_field( 'email', 'option' ) ) : ?>
-						<a href="mailto:<?php the_field( 'email', 'option' ); ?>">
+						<a href="mailto:<?php the_field( 'email', 'option' ); ?>" target="_blank"
+						   rel="noopener noreferrer">
 							<img src="<?php the_field( 'email_icon', 'option' ); ?>" alt="icon">
 							<p><?php the_field( 'email', 'option' ); ?></p>
 						</a>
 					<?php else : ?>
-						<a href="mailto:information@casesupply.com">
+						<a href="mailto:information@casesupply.com" target="_blank" rel="noopener noreferrer">
 							<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/email.png'; ?>"
 							     alt="icon">
 							<p>information@casesupply.com</p>
@@ -56,12 +57,13 @@
 				     endif; ?>);">
 					
 					<?php if ( get_field( 'phone', 'option' ) ) : ?>
-						<a href="tel:<?php the_field( 'phone', 'option' ); ?>">
+						<a href="tel:<?php the_field( 'phone', 'option' ); ?>" target="_blank"
+						   rel="noopener noreferrer">
 							<img src="<?php the_field( 'phone_icon', 'option' ); ?>" alt="icon">
 							<p><?php the_field( 'phone', 'option' ); ?></p>
 						</a>
 					<?php else : ?>
-						<a href="tel:315.425.1818">
+						<a href="tel:315.425.1818" target="_blank" rel="noopener noreferrer">
 							<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/call.png'; ?>"
 							     alt="icon">
 							<p>315.425.1818</p>
@@ -79,12 +81,12 @@
 				     endif; ?>);">
 					
 					<?php if ( get_field( 'facebook', 'option' ) ) : ?>
-						<a href="<?php the_field( 'facebook', 'option' ); ?>">
+						<a href="<?php the_field( 'facebook', 'option' ); ?>" target="_blank" rel="noopener noreferrer">
 							<img src="<?php the_field( 'facebook_icon', 'option' ); ?>" alt="icon">
 							<p>Find us on Facebook</p>
 						</a>
 					<?php else : ?>
-						<a href="https://www.facebook.com/casesupplyinc/">
+						<a href="https://www.facebook.com/casesupplyinc/" target="_blank" rel="noopener noreferrer">
 							<img src="<?php echo get_template_directory_uri() . '/assets/images/icons/facebook.png'; ?>"
 							     alt="icon">
 							<p>Find us on Facebook</p>
@@ -108,31 +110,36 @@
 			<div class="social-icons social-icons-small social-icons-circle">
 				
 				<?php if ( get_field( 'facebook_url', 'option' ) ) : ?>
-					<a href="<?php the_field( 'facebook_url', 'option' ); ?>" class="social icon-facebook">
+					<a href="<?php the_field( 'facebook_url', 'option' ); ?>" class="social icon-facebook"
+					   target="_blank" rel="noopener noreferrer">
 						<i class="fa fa-facebook icon-primary"></i>
 					</a>
 				<?php endif; ?>
 				
 				<?php if ( get_field( 'instagram_url', 'option' ) ) : ?>
-					<a href="<?php the_field( 'instagram_url', 'option' ); ?>" class="social icon-instagram">
+					<a href="<?php the_field( 'instagram_url', 'option' ); ?>" class="social icon-instagram"
+					   target="_blank" rel="noopener noreferrer">
 						<i class="fa fa-instagram icon-primary"></i>
 					</a>
 				<?php endif; ?>
 				
 				<?php if ( get_field( 'linkedin_url', 'option' ) ) : ?>
-					<a href="<?php the_field( 'linkedin_url', 'option' ); ?>" class="social icon-linkedin">
+					<a href="<?php the_field( 'linkedin_url', 'option' ); ?>" class="social icon-linkedin"
+					   target="_blank" rel="noopener noreferrer">
 						<i class="fa fa-linkedin icon-primary"></i>
 					</a>
 				<?php endif; ?>
 				
 				<?php if ( get_field( 'houzz_url', 'option' ) ) : ?>
-					<a href="<?php the_field( 'houzz_url', 'option' ); ?>" class="social icon-houzz">
+					<a href="<?php the_field( 'houzz_url', 'option' ); ?>" class="social icon-houzz" target="_blank"
+					   rel="noopener noreferrer">
 						<i class="fa fa-houzz icon-primary"></i>
 					</a>
 				<?php endif; ?>
 				
 				<?php if ( get_field( 'pinterest_url', 'option' ) ) : ?>
-					<a href="<?php the_field( 'pinterest_url', 'option' ); ?>" class="social icon-pinterest">
+					<a href="<?php the_field( 'pinterest_url', 'option' ); ?>" class="social icon-pinterest"
+					   target="_blank" rel="noopener noreferrer">
 						<i class="fa fa-pinterest icon-primary"></i>
 					</a>
 				<?php endif; ?>
