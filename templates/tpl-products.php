@@ -48,7 +48,7 @@ get_header(); ?>
 						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/clareanne-residential-1500x998.png'; ?>);background-position-y: center;">
 						</div>
 						<div class="single-product-content">
-							<h2 class="product-title text-center">KITCHEN</h2>
+							<h2 class="product-title text-center">CABINETS</h2>
 						</div>
 					</div>
 					<div class="col-md-12">
@@ -57,7 +57,7 @@ get_header(); ?>
 						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/products/Bathroom.jpg'; ?>);background-position-y: 55%;">
 						</div>
 						<div class="single-product-content">
-							<h2 class="product-title text-center">BATH</h2>
+							<h2 class="product-title text-center">FIXTURES</h2>
 						</div>
 					</div>
 					<div class="col-md-12">
