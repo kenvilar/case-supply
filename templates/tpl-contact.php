@@ -169,7 +169,7 @@ get_header(); ?>
 						</div>
 						<br>
 						<div class="col-md-12 col-sm-12 col-xs-12 nopaddingleft"
-						     style="font-size: 20px;line-height: 25px;">
+						     style="font-size: 16px;line-height: 25px;">
 							<?php if ( get_field( 'additional_notes_for_hour_of_operations' ) ) : ?>
 								<?php the_field( 'additional_notes_for_hour_of_operations' ); ?>
 							<?php else : ?>

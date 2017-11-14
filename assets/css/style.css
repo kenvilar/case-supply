@@ -2256,6 +2256,7 @@ form.search-form .search-submit:hover {
   line-height: normal;
   line-height: 20px;
   padding-right: 35px;
+  font-size: 18px;
 }
 .contact .hours-of-operation .time {
   font-family: 'Roboto', sans-serif;
