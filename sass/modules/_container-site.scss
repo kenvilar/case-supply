@@ -55,14 +55,6 @@
 				cursor: pointer;
 				opacity: 0.5;
 			}
-			.product-title {
-				top: 0;
-				position: absolute;
-				padding-left: 25px;
-				color: $color-text-white;
-				@include roboto500;
-				text-transform: uppercase;
-			}
 		}
 		.single-product-close {
 			background-image: none;
@@ -75,6 +67,11 @@
 			background: $color-background-gray;
 			width: 100%;
 			display: none;
+			.product-title {
+				color: $color-text-green;
+				@include roboto500;
+				text-transform: uppercase;
+			}
 		}
 	}
 }

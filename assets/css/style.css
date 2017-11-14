@@ -2157,17 +2157,6 @@ form.search-form .search-submit:hover {
   cursor: pointer;
   opacity: 0.5;
 }
-.products .products-box .single-product .product-title {
-  top: 0;
-  position: absolute;
-  padding-left: 25px;
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-transform: uppercase;
-}
 .products .products-box .single-product-close {
   background-image: none;
 }
@@ -2179,6 +2168,14 @@ form.search-form .search-submit:hover {
   background: #F8F8F8;
   width: 100%;
   display: none;
+}
+.products .products-box .single-product-content .product-title {
+  color: #369e69;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .our-team .single-team {
