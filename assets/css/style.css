@@ -2183,7 +2183,6 @@ form.search-form .search-submit:hover {
 }
 .products .products-box .single-product-content {
   padding: 20px 60px 33px;
-  background: #F8F8F8;
   width: 100%;
   display: none;
 }
@@ -2194,6 +2193,9 @@ form.search-form .search-submit:hover {
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
+}
+.products .products-box .single-product-content .equal-height {
+  margin-bottom: 20px;
 }
 
 .our-team .single-team {

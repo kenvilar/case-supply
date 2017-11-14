@@ -57,31 +57,38 @@ get_header(); ?>
 							<div class="container">
 								<div class="row">
 									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/Monarch.png"
+										<img class="img-responsive"
+										     src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/Monarch.png"
 										     alt="products-image" style="width:auto !important;height:auto !important;">
 									</div>
 									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/Dura-Supreme.png"
+										<img class="img-responsive"
+										     src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/Dura-Supreme.png"
 										     alt="products-image" style="width:auto !important;height:auto !important;">
 									</div>
 									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/Kitchen-Kompact.png"
+										<img class="img-responsive"
+										     src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/Kitchen-Kompact.png"
 										     alt="products-image" style="width:auto !important;height:auto !important;">
 									</div>
 									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/Medallion-Gold.png"
+										<img class="img-responsive"
+										     src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/Medallion-Gold.png"
 										     alt="products-image" style="width:auto !important;height:auto !important;">
 									</div>
 									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/RiverRun.png"
+										<img class="img-responsive"
+										     src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/RiverRun.png"
 										     alt="products-image" style="width:auto !important;height:auto !important;">
 									</div>
 									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/Wolf-Products.png"
+										<img class="img-responsive"
+										     src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/Wolf-Products.png"
 										     alt="products-image" style="width:auto !important;height:auto !important;">
 									</div>
 									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/WoodPro.png"
+										<img class="img-responsive"
+										     src="<?php echo get_template_directory_uri(); ?>/assets/images/products/cabinets/WoodPro.png"
 										     alt="products-image" style="width:auto !important;height:auto !important;">
 									</div>
 								</div>

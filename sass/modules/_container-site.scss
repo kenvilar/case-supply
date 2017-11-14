@@ -79,13 +79,15 @@
 		}
 		.single-product-content {
 			padding: 20px 60px 33px;
-			background: $color-background-gray;
 			width: 100%;
 			display: none;
 			.product-title {
 				color: $color-text-green;
 				@include roboto900;
 				text-transform: uppercase;
+			}
+			.equal-height {
+				margin-bottom: 20px;
 			}
 		}
 	}
