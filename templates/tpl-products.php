@@ -50,8 +50,8 @@ get_header(); ?>
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 						     title="Click For More Details"
 						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/original/clareanne-residential-1500x998.png'; ?>);background-position-y: center;">
-							<span class="product-title-show-when-hover-image">CABINETS</span>
 						</div>
+						<span class="product-title-show-when-hover-image">CABINETS</span>
 						<div class="single-product-content">
 							<div class="container">
 								<div class="row">
@@ -122,8 +122,8 @@ get_header(); ?>
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 						     title="Click For More Details"
 						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/products/Bathroom.jpg'; ?>);background-position-y: 55%;">
-							<span class="product-title-show-when-hover-image">FIXTURES</span>
 						</div>
+						<span class="product-title-show-when-hover-image">FIXTURES</span>
 						<div class="single-product-content">
 							<div class="container">
 								<div class="row">
@@ -209,8 +209,8 @@ get_header(); ?>
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 						     title="Click For More Details"
 						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/products/Countertop.jpg'; ?>);background-position-y: 85%;">
-							<span class="product-title-show-when-hover-image">COUNTERTOPS</span>
 						</div>
+						<span class="product-title-show-when-hover-image">COUNTERTOPS</span>
 						<div class="single-product-content">
 							<div class="container">
 								<div class="row">
@@ -282,8 +282,8 @@ get_header(); ?>
 						<div class="single-product single-product-toggle" data-toggle="tooltip" data-placement="top"
 						     title="Click For More Details"
 						     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/products/Appliance.jpg'; ?>);background-position-y: 60%;">
-							<span class="product-title-show-when-hover-image">MISCELLANEOUS</span>
 						</div>
+						<span class="product-title-show-when-hover-image">MISCELLANEOUS</span>
 						<div class="single-product-content">
 							<div class="container">
 								<div class="row">
