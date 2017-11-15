@@ -2575,6 +2575,7 @@ footer .social-icons .icon-youtube:hover {
 
   .get-in-touch {
     padding-bottom: 0 !important;
+    overflow-x: hidden;
   }
   .get-in-touch .header {
     font-size: 24px;
