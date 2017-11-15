@@ -147,8 +147,6 @@
 	.products {
 		padding-bottom: 20px !important;
 		.products-container {
-			padding-left: 0;
-			padding-right: 0;
 			.products-box {
 				padding-left: 0;
 				padding-right: 0;
@@ -200,6 +198,7 @@
 			padding-right: 0;
 			.single-team img {
 				width: 100%;
+				height: auto;
 			}
 		}
 	}

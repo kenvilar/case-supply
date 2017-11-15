@@ -2629,10 +2629,6 @@ footer .social-icons .icon-youtube:hover {
   .products {
     padding-bottom: 20px !important;
   }
-  .products .products-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
   .products .products-container .products-box {
     padding-left: 0;
     padding-right: 0;
@@ -2690,6 +2686,7 @@ footer .social-icons .icon-youtube:hover {
   }
   .our-team .team-container .single-team img {
     width: 100%;
+    height: auto;
   }
 
   .contact .locations .location {
