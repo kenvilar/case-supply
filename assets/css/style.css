@@ -2155,7 +2155,7 @@ form.search-form .search-submit:hover {
 }
 .products .products-box .single-product:hover, .products .products-box .single-product:hover .single-product-content h2 {
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.3;
   filter: alpha(opacity=60);
 }
 .products .products-box .single-product:hover + .product-title-show-when-hover-image {
@@ -2168,7 +2168,7 @@ form.search-form .search-submit:hover {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  font-size: 25px;
+  font-size: 35px;
   color: #000000;
   font-weight: bold;
   text-align: center;
