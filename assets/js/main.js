@@ -22,7 +22,7 @@
 
 		function singleProductContentOpen( e ) {
 			e.preventDefault();
-			$( this ).next( '.single-product-content' ).slideToggle();
+			$( this ).next().next( '.single-product-content' ).slideToggle();
 			$( this ).toggleClass( 'single-product-close' );
 		}
 
