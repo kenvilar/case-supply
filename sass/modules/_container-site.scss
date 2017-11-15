@@ -56,10 +56,10 @@
 				opacity: 0.6;
 				filter: alpha(opacity=60);
 			}
-			&:hover .product-title-show-when-hover-image {
+			&:hover + .product-title-show-when-hover-image {
 				visibility: visible;
 			}
-			.product-title-show-when-hover-image {
+			+ .product-title-show-when-hover-image {
 				visibility: hidden;
 				display: block;
 				@include roboto300;
@@ -67,8 +67,17 @@
 				color: $color-text-black;
 				font-weight: bold;
 				text-align: center;
-				position: relative;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				vertical-align: middle;
+				margin: 100px auto 50px auto;
 				text-transform: uppercase;
+				pointer-events: none;
+				&:hover {
+					visibility: visible;
+				}
 			}
 		}
 		.single-product-close {

@@ -2158,10 +2158,10 @@ form.search-form .search-submit:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
 }
-.products .products-box .single-product:hover .product-title-show-when-hover-image {
+.products .products-box .single-product:hover + .product-title-show-when-hover-image {
   visibility: visible;
 }
-.products .products-box .single-product .product-title-show-when-hover-image {
+.products .products-box .single-product + .product-title-show-when-hover-image {
   visibility: hidden;
   display: block;
   font-family: 'Roboto', sans-serif;
@@ -2172,8 +2172,17 @@ form.search-form .search-submit:hover {
   color: #000000;
   font-weight: bold;
   text-align: center;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  vertical-align: middle;
+  margin: 100px auto 50px auto;
   text-transform: uppercase;
+  pointer-events: none;
+}
+.products .products-box .single-product + .product-title-show-when-hover-image:hover {
+  visibility: visible;
 }
 .products .products-box .single-product-close {
   background-image: none;
