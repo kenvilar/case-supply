@@ -94,6 +94,7 @@
 				color: $color-text-green;
 				@include roboto900;
 				text-transform: uppercase;
+				word-wrap: break-word;
 			}
 			.equal-height {
 				margin-bottom: 20px;

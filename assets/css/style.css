@@ -2202,6 +2202,7 @@ form.search-form .search-submit:hover {
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
+  word-wrap: break-word;
 }
 .products .products-box .single-product-content .equal-height {
   margin-bottom: 20px;
@@ -2492,6 +2493,11 @@ footer .social-icons .icon-youtube:hover {
     width: 900px;
   }
 }
+@media screen and (min-width: 321px) {
+  .products .products-box .product-title {
+    display: none;
+  }
+}
 @media screen and (max-width: 991px) {
   #home-services .single-service {
     border-right: transparent;
@@ -2654,6 +2660,9 @@ footer .social-icons .icon-youtube:hover {
     content: '\f0d7';
     float: right;
     padding-right: 10px;
+  }
+  .products .products-container .products-box .single-product + .product-title-show-when-hover-image {
+    display: none;
   }
   .products .products-container .products-box .single-product-close {
     background-image: initial;

@@ -36,6 +36,7 @@ get_header(); ?>
 							</div>
 							<span class="product-title-show-when-hover-image"><?php echo $title; ?></span>
 							<div class="single-product-content">
+								<h2 class="product-title text-center"><?php echo $title; ?></h2>
 								<div class="container-fluid">
 									<div class="row">
 										<?php echo $content; ?>
@@ -53,7 +54,8 @@ get_header(); ?>
 						</div>
 						<span class="product-title-show-when-hover-image">CABINETS</span>
 						<div class="single-product-content">
-							<div class="container">
+							<h2 class="product-title text-center">CABINETS</h2>
+							<div class="container-fluid">
 								<div class="row">
 									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
 										<a href="http://www.bjtidwell.com/" target="_blank" rel="noopener noreferrer">
@@ -125,7 +127,8 @@ get_header(); ?>
 						</div>
 						<span class="product-title-show-when-hover-image">FIXTURES</span>
 						<div class="single-product-content">
-							<div class="container">
+							<h2 class="product-title text-center">FIXTURES</h2>
+							<div class="container-fluid">
 								<div class="row">
 									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
 										<a href="http://aquaticbath.com" target="_blank" rel="noopener noreferrer">
@@ -212,7 +215,8 @@ get_header(); ?>
 						</div>
 						<span class="product-title-show-when-hover-image">COUNTERTOPS</span>
 						<div class="single-product-content">
-							<div class="container">
+							<h2 class="product-title text-center">COUNTERTOPS</h2>
+							<div class="container-fluid">
 								<div class="row">
 									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
 										<a href="http://www.buschproducts.com" target="_blank"
@@ -285,7 +289,8 @@ get_header(); ?>
 						</div>
 						<span class="product-title-show-when-hover-image">MISCELLANEOUS</span>
 						<div class="single-product-content">
-							<div class="container">
+							<h2 class="product-title text-center">MISCELLANEOUS</h2>
+							<div class="container-fluid">
 								<div class="row">
 									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
 										<a href="http://www.bascoshowerdoor.com" target="_blank"
