@@ -2495,6 +2495,11 @@ footer .social-icons .icon-youtube:hover {
     width: 900px;
   }
 }
+@media screen and (min-width: 768px) {
+  .navbar-default .navbar-toggle {
+    display: none !important;
+  }
+}
 @media screen and (min-width: 321px) {
   .products .products-box .product-title {
     display: none;
