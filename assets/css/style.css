@@ -634,7 +634,7 @@ form.search-form .search-submit:hover {
 /*Navigation*/
 .navbar-default {
   margin-bottom: 0;
-  height: 110px;
+  height: 120px;
   background-color: #F8F8F8;
   border: 1px solid #ccc8c8;
 }
@@ -642,7 +642,7 @@ form.search-form .search-submit:hover {
   display: none;
 }
 .navbar-default .navbar-brand {
-  padding: 0 10px 0;
+  padding: 6px 10px 0;
   height: auto;
 }
 .navbar-default .navbar-brand img {
