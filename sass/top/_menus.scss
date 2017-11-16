@@ -5,6 +5,9 @@
 	padding-bottom: 5px;
 	background-color: $color-background-gray;
 	border: 1px solid #ccc8c8;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
 	.navbar-toggle-close {
 		display: none;
 	}

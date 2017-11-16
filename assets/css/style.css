@@ -639,6 +639,9 @@ form.search-form .search-submit:hover {
   padding-bottom: 5px;
   background-color: #F8F8F8;
   border: 1px solid #ccc8c8;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
 }
 .navbar-default .navbar-toggle-close {
   display: none;
