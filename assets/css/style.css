@@ -634,7 +634,9 @@ form.search-form .search-submit:hover {
 /*Navigation*/
 .navbar-default {
   margin-bottom: 0;
-  height: 120px;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #F8F8F8;
   border: 1px solid #ccc8c8;
 }
