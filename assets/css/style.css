@@ -2280,6 +2280,9 @@ form.search-form .search-submit:hover {
   font-weight: 900;
   line-height: normal;
 }
+.contact .locations .location .address {
+  margin-bottom: 15px;
+}
 .contact .locations .location .address p {
   letter-spacing: 0.43px;
   font-size: 14px;
