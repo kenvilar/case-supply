@@ -2279,6 +2279,8 @@ form.search-form .search-submit:hover {
   font-style: normal;
   font-weight: 900;
   line-height: normal;
+  margin-top: -2px !important;
+  margin-bottom: 1px;
 }
 .contact .locations .location .address {
   margin-bottom: 15px;

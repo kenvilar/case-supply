@@ -155,6 +155,8 @@
 		.location {
 			h4 {
 				@include roboto900;
+				margin-top: -2px !important;
+				margin-bottom: 1px;
 			}
 			.address {
 				margin-bottom: 15px;
