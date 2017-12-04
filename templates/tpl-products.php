@@ -278,6 +278,14 @@ get_header(); ?>
 											     style="width:auto !important;height:auto !important;">
 										</a>
 									</div>
+									<div class="col-md-3 col-sm-6 col-xs-6 equal-height">
+										<a href="http://stonecentralny.com/" target="_blank" rel="noopener noreferrer">
+											<img class="img-responsive"
+											     src="<?php echo get_template_directory_uri(); ?>/assets/images/products/countertops/stone-central.png"
+											     alt="products-image"
+											     style="width:auto !important;height:auto !important;">
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
