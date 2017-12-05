@@ -1,0 +1,24 @@
+.mybutton1 {
+	border-radius: 0;
+	border: 1px solid $color-background-green;
+	background: none;
+	transition: all 0.5s ease;
+	cursor: pointer;
+	padding: 0px 30px;
+	outline: none;
+	color: #1b1313;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: auto;
+	&:hover {
+		color: #fff;
+		transition: all 0.5s ease;
+		border-color: #ccc #bbb #aaa #bbb;
+	}
+	&:hover, &:focus, &:active {
+		background: $color-background-green;
+		outline: 0;
+	}
+}
