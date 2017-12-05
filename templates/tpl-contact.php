@@ -184,6 +184,40 @@ get_header(); ?>
 	</div>
 </section>
 
+<section id="template-container" class="contact-form" style="padding-top:0;">
+	<div class="container locations">
+		<div class="row">
+			<div class="col-xs-12">
+				<?php if ( get_field( 'contact_form_shortcode' ) ) :
+					$cf7_shortcode = get_field( 'contact_form_shortcode' );
+					echo do_shortcode( $cf7_shortcode );
+				else : ?>
+					<form action="">
+						<div class="casesupply-contact-form">
+							<h3 class="text-center text-uppercase text-green"><strong>Contact Form</strong></h3>
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="phone" name="phone" placeholder="Phone" required>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+							</div>
+							<div class="form-group">
+							<textarea class="form-control" type="textarea" id="questions" name="questions" placeholder="Questions"
+							          maxlength="140" rows="7"></textarea>
+							</div>
+							<button type="button" id="submit" name="submit" class="btn btn-primary mybutton1 center-block">SUBMIT
+							</button>
+						</div>
+					</form>
+				<?php endif; ?>
+			</div>
+		</div>
+	</div>
+</section>
+
 <div id="map"></div>
 
 <?php require get_template_directory() . '/layouts/map.php'; ?>
