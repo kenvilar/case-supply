@@ -710,6 +710,25 @@
                         "maxlength": ""
                     }
                 ]
+            },
+            {
+                "key": "field_5a26ded9e59aa",
+                "label": "Contact Form Shortcode",
+                "name": "contact_form_shortcode",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "text",
+                "toolbar": "basic",
+                "media_upload": 0,
+                "delay": 0
             }
         ],
         "location": [
