@@ -518,6 +518,31 @@ select {
   outline: 0;
 }
 
+.mybutton1 {
+  border-radius: 0;
+  border: 1px solid #369e69;
+  background: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  padding: 0px 30px;
+  outline: none;
+  color: #1b1313;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+}
+.mybutton1:hover {
+  color: #fff;
+  transition: all 0.5s ease;
+  border-color: #ccc #bbb #aaa #bbb;
+}
+.mybutton1:hover, .mybutton1:focus, .mybutton1:active {
+  background: #369e69;
+  outline: 0;
+}
+
 /*Forms*/
 /* Wordpress Search Form */
 form.search-form {
@@ -629,6 +654,27 @@ form.search-form .search-submit:hover {
   color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
+}
+
+/* Contact Form */
+.contact-form .casesupply-contact-form .form-control {
+  height: 50px;
+  border: 1px solid #d7d7d7;
+  border-radius: 0;
+  outline: 0;
+}
+.contact-form .casesupply-contact-form .form-control:focus {
+  outline: 0;
+  border: 1px solid #369e69;
+  -webkit-box-shadow: inset 0 0 1px rgba(54, 158, 105, 0.07), 0 0 1px rgba(54, 158, 105, 0.07);
+  -moz-box-shadow: inset 0 0 1px rgba(54, 158, 105, 0.07), 0 0 1px rgba(54, 158, 105, 0.07);
+  box-shadow: inset 0 0 1px rgba(54, 158, 105, 0.07), 0 0 1px rgba(54, 158, 105, 0.07);
+}
+.contact-form .casesupply-contact-form textarea.form-control {
+  height: auto;
+}
+.contact-form div.wpcf7-response-output {
+  margin: 0;
 }
 
 /*Navigation*/
@@ -2344,6 +2390,10 @@ form.search-form .search-submit:hover {
 
 .color-white {
   color: #fff;
+}
+
+.text-green {
+  color: #369e69;
 }
 
 .uppercase {
