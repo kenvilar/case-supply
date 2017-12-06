@@ -536,10 +536,10 @@ select {
 .mybutton1:hover {
   color: #fff;
   transition: all 0.5s ease;
-  border-color: #ccc #bbb #aaa #bbb;
 }
 .mybutton1:hover, .mybutton1:focus, .mybutton1:active {
   background: #369e69;
+  border-color: #ccc #bbb #aaa #bbb;
   outline: 0;
 }
 

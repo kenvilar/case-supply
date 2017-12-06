@@ -15,10 +15,10 @@
 	&:hover {
 		color: #fff;
 		transition: all 0.5s ease;
-		border-color: #ccc #bbb #aaa #bbb;
 	}
 	&:hover, &:focus, &:active {
 		background: $color-background-green;
+		border-color: #ccc #bbb #aaa #bbb;
 		outline: 0;
 	}
 }
