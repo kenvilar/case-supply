@@ -187,6 +187,53 @@ get_header(); ?>
 								the summer months.
 							<?php endif; ?>
 						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 nopaddingleft">
+							<br><br>
+							<a href="" class="btn btn-primary mybutton1 center-block text-uppercase" data-toggle="modal"
+							   data-target="#myContactForm">Contact Us</a>
+							<div id="myContactForm" class="modal fade contact-form" role="dialog">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+										<div class="modal-body">
+											<h3 class="text-center text-uppercase text-green"><strong>Contact Form</strong></h3>
+											<?php if ( get_field( 'contact_form_shortcode' ) ) :
+												$cf7_shortcode = get_field( 'contact_form_shortcode' );
+												echo do_shortcode( $cf7_shortcode );
+											else : ?>
+												<form action="">
+													<div class="casesupply-contact-form">
+														<div class="form-group">
+															<input type="text" class="form-control" id="name" name="name"
+															       placeholder="Name" required>
+														</div>
+														<div class="form-group">
+															<input type="text" class="form-control" id="phone" name="phone"
+															       placeholder="Phone" required>
+														</div>
+														<div class="form-group">
+															<input type="text" class="form-control" id="email" name="email"
+															       placeholder="Email" required>
+														</div>
+														<div class="form-group">
+															<textarea class="form-control" type="textarea" id="questions"
+															          name="questions" placeholder="Questions" maxlength="140"
+															          rows="7">
+															</textarea>
+														</div>
+														<button type="button" id="submit" name="submit"
+														        class="btn btn-primary mybutton1 center-block">SUBMIT
+														</button>
+													</div>
+												</form>
+											<?php endif; ?>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -194,14 +241,14 @@ get_header(); ?>
 	</div>
 </section>
 
-<section id="template-container" class="contact-form" style="padding-top:0;">
+<!--<section id="template-container" class="contact-form" style="padding-top:0;">
 	<div class="container locations">
 		<div class="row">
 			<div class="col-xs-12">
-				<?php if ( get_field( 'contact_form_shortcode' ) ) :
+				<?php /*if ( get_field( 'contact_form_shortcode' ) ) :
 					$cf7_shortcode = get_field( 'contact_form_shortcode' );
 					echo do_shortcode( $cf7_shortcode );
-				else : ?>
+				else : */ ?>
 					<form action="">
 						<div class="casesupply-contact-form">
 							<h3 class="text-center text-uppercase text-green"><strong>Contact Form</strong></h3>
@@ -222,11 +269,11 @@ get_header(); ?>
 							</button>
 						</div>
 					</form>
-				<?php endif; ?>
+				<?php /*endif; */ ?>
 			</div>
 		</div>
 	</div>
-</section>
+</section>-->
 
 <div id="map"></div>
 
