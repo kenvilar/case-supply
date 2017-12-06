@@ -53,8 +53,8 @@ get_header(); ?>
 							<h4>Syracuse Showroom</h4>
 							<p>
 								601 West Fayette Street Syracuse, NY 13204 <br>
-								<span style="font-weight:bold;">t</span> 315.425.1818&nbsp;&nbsp;&nbsp;<span
-										style="font-weight:bold;">f</span> 315.471.0597
+								<span style="font-weight:bold;">t</span> 315.425.1818&nbsp;&nbsp;&nbsp;
+								<span style="font-weight:bold;">f</span> 315.471.0597
 							</p>
 						</div>
 						<!--2nd-->
@@ -67,8 +67,8 @@ get_header(); ?>
 							<h4>Auburn Showroom</h4>
 							<p>
 								360 Grant Avenue, Suite 102 Auburn, NY 13021 <br>
-								<span style="font-weight:bold;">t</span> 315.425.1818&nbsp;&nbsp;&nbsp;<span
-										style="font-weight:bold;">f</span> 315.471.0597
+								<span style="font-weight:bold;">t</span> 315.425.1818&nbsp;&nbsp;&nbsp;
+								<span style="font-weight:bold;">f</span> 315.471.0597
 							</p>
 						</div>
 						<!--3rd-->
@@ -81,8 +81,8 @@ get_header(); ?>
 							<h4>Rome Showroom</h4>
 							<p>
 								293-295 East Dominick Street Rome, NY 13440 <br>
-								<span style="font-weight:bold;">t</span> 315.425.1818&nbsp;&nbsp;&nbsp;<span
-										style="font-weight:bold;">f</span> 315.471.0597
+								<span style="font-weight:bold;">t</span> 315.425.1818&nbsp;&nbsp;&nbsp;
+								<span style="font-weight:bold;">f</span> 315.471.0597
 							</p>
 						</div>
 						<!--4th-->
@@ -95,8 +95,8 @@ get_header(); ?>
 							<h4>Amsterdam Showroom</h4>
 							<p>
 								4184 State Highway 30 Amsterdam, NY 12010-6202 <br>
-								<span style="font-weight:bold;">t</span> 518.883.7218&nbsp;&nbsp;&nbsp;<span
-										style="font-weight:bold;">f</span> 518.883.7225
+								<span style="font-weight:bold;">t</span> 518.883.7218&nbsp;&nbsp;&nbsp;
+								<span style="font-weight:bold;">f</span> 518.883.7225
 							</p>
 						</div>
 						<!--5th-->
@@ -109,8 +109,8 @@ get_header(); ?>
 							<h4>The Warehouse</h4>
 							<p>
 								150 Ainsley Drive Syracuse, NY 13210 <br>
-								<span style="font-weight:bold;">t</span> 315.425.1818&nbsp;&nbsp;&nbsp;<span
-										style="font-weight:bold;">f</span> 315.424.0626
+								<span style="font-weight:bold;">t</span> 315.425.1818&nbsp;&nbsp;&nbsp;
+								<span style="font-weight:bold;">f</span> 315.424.0626
 							</p>
 						</div>
 					</div>
@@ -220,6 +220,6 @@ get_header(); ?>
 
 <div id="map"></div>
 
-<?php require get_template_directory() . '/layouts/map.php'; ?>
+<?php require get_template_directory() . '/layouts/map-2.php'; ?>
 
 <?php get_footer(); ?>
