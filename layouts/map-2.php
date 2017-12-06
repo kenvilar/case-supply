@@ -154,14 +154,22 @@
 
 				for ( i = 0; i < locations.length; i++ ) {
 					marker = new google.maps.Marker( {
-						position : new google.maps.LatLng( locations[i][1], locations[i][2] ),
-						map      : map
+						position  : new google.maps.LatLng( locations[i][1], locations[i][2] ),
+						map       : map,
+						animation : google.maps.Animation.DROP
 					} );
 
 					google.maps.event.addListener( marker, 'click', (function( marker, i ) {
 						return function() {
 							infowindow.setContent( locations[i][0] );
 							infowindow.open( map, marker );
+
+							//Marker animation
+							if ( marker.getAnimation() !== null ) {
+								marker.setAnimation( null );
+							} else {
+								marker.setAnimation( google.maps.Animation.BOUNCE );
+							}
 						};
 					})( marker, i ) );
 				}
@@ -174,8 +182,9 @@
 				////
 				document.getElementById( "clicktomap-0" ).addEventListener( "click", function() {
 					mymarker = new google.maps.Marker( {
-						position : new google.maps.LatLng( locations[0][1], locations[0][2] ),
-						map      : map
+						position  : new google.maps.LatLng( locations[0][1], locations[0][2] ),
+						map       : map,
+						animation : google.maps.Animation.DROP
 					} );
 
 					infowindow.setContent( locations[0][0] );
@@ -183,8 +192,9 @@
 				} );
 				document.getElementById( "clicktomap-1" ).addEventListener( "click", function() {
 					mymarker = new google.maps.Marker( {
-						position : new google.maps.LatLng( locations[1][1], locations[1][2] ),
-						map      : map
+						position  : new google.maps.LatLng( locations[1][1], locations[1][2] ),
+						map       : map,
+						animation : google.maps.Animation.DROP
 					} );
 
 					infowindow.setContent( locations[1][0] );
@@ -192,8 +202,9 @@
 				} );
 				document.getElementById( "clicktomap-2" ).addEventListener( "click", function() {
 					mymarker = new google.maps.Marker( {
-						position : new google.maps.LatLng( locations[2][1], locations[2][2] ),
-						map      : map
+						position  : new google.maps.LatLng( locations[2][1], locations[2][2] ),
+						map       : map,
+						animation : google.maps.Animation.DROP
 					} );
 
 					infowindow.setContent( locations[2][0] );
@@ -201,8 +212,9 @@
 				} );
 				document.getElementById( "clicktomap-3" ).addEventListener( "click", function() {
 					mymarker = new google.maps.Marker( {
-						position : new google.maps.LatLng( locations[3][1], locations[3][2] ),
-						map      : map
+						position  : new google.maps.LatLng( locations[3][1], locations[3][2] ),
+						map       : map,
+						animation : google.maps.Animation.DROP
 					} );
 
 					infowindow.setContent( locations[3][0] );
@@ -210,8 +222,9 @@
 				} );
 				document.getElementById( "clicktomap-4" ).addEventListener( "click", function() {
 					mymarker = new google.maps.Marker( {
-						position : new google.maps.LatLng( locations[4][1], locations[4][2] ),
-						map      : map
+						position  : new google.maps.LatLng( locations[4][1], locations[4][2] ),
+						map       : map,
+						animation : google.maps.Animation.DROP
 					} );
 
 					infowindow.setContent( locations[4][0] );
