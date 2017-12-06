@@ -167,8 +167,6 @@
 							//Marker animation
 							if ( marker.getAnimation() !== null ) {
 								marker.setAnimation( null );
-							} else {
-								marker.setAnimation( google.maps.Animation.BOUNCE );
 							}
 						};
 					})( marker, i ) );
