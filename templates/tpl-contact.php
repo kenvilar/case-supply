@@ -45,9 +45,11 @@ get_header(); ?>
 						</div>
 						<!--1st-->
 						<div class="col-md-2 col-sm-2 col-xs-1">
-							<img class="pull-right"
-							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-							     alt="location">
+							<a href="#map" id="clicktomap-0">
+								<img class="pull-right"
+								     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+								     alt="location">
+							</a>
 						</div>
 						<div class="col-md-10 col-sm-10 col-xs-11 address">
 							<h4>Syracuse Showroom</h4>
@@ -59,9 +61,11 @@ get_header(); ?>
 						</div>
 						<!--2nd-->
 						<div class="col-md-2 col-sm-2 col-xs-1">
-							<img class="pull-right"
-							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-							     alt="location">
+							<a href="#map" id="clicktomap-1">
+								<img class="pull-right"
+								     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+								     alt="location">
+							</a>
 						</div>
 						<div class="col-md-10 col-sm-10 col-xs-11 address">
 							<h4>Auburn Showroom</h4>
@@ -73,9 +77,11 @@ get_header(); ?>
 						</div>
 						<!--3rd-->
 						<div class="col-md-2 col-sm-2 col-xs-1">
-							<img class="pull-right"
-							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-							     alt="location">
+							<a href="#map" id="clicktomap-2">
+								<img class="pull-right"
+								     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+								     alt="location">
+							</a>
 						</div>
 						<div class="col-md-10 col-sm-10 col-xs-11 address">
 							<h4>Rome Showroom</h4>
@@ -87,9 +93,11 @@ get_header(); ?>
 						</div>
 						<!--4th-->
 						<div class="col-md-2 col-sm-2 col-xs-1">
-							<img class="pull-right"
-							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-							     alt="location">
+							<a href="#map" id="clicktomap-3">
+								<img class="pull-right"
+								     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+								     alt="location">
+							</a>
 						</div>
 						<div class="col-md-10 col-sm-10 col-xs-11 address">
 							<h4>Amsterdam Showroom</h4>
@@ -101,9 +109,11 @@ get_header(); ?>
 						</div>
 						<!--5th-->
 						<div class="col-md-2 col-sm-2 col-xs-1">
-							<img class="pull-right"
-							     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
-							     alt="location">
+							<a href="#map" id="clicktomap-4">
+								<img class="pull-right"
+								     src="<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+								     alt="location">
+							</a>
 						</div>
 						<div class="col-md-10 col-sm-10 col-xs-11 address">
 							<h4>The Warehouse</h4>
