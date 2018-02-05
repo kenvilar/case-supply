@@ -72,7 +72,7 @@ get_header(); ?>
 							<p>
 								360 Grant Avenue, Suite 102 Auburn, NY 13021 <br>
 								<span style="font-weight:bold;">t</span> 315.425.1818&nbsp;&nbsp;&nbsp;
-								<span style="font-weight:bold;">f</span> 315.471.0597
+								<span style="font-weight:bold;">f</span> 315.253.4723
 							</p>
 						</div>
 						<!--3rd-->
@@ -88,7 +88,7 @@ get_header(); ?>
 							<p>
 								293-295 East Dominick Street Rome, NY 13440 <br>
 								<span style="font-weight:bold;">t</span> 315.425.1818&nbsp;&nbsp;&nbsp;
-								<span style="font-weight:bold;">f</span> 315.471.0597
+								<span style="font-weight:bold;">f</span> 315.356.7140
 							</p>
 						</div>
 						<!--4th-->
